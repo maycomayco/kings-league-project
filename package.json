@@ -1,0 +1,8 @@
+{
+  "name": "kings-league",
+  "version": "1.0.0",
+  "description": "API y website de la Kins League con fines educativos",
+  "main": "index.js",
+  "author": "maycomayco",
+  "license": "MIT"
+}
