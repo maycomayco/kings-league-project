@@ -10,7 +10,15 @@
     "node": "18.12.1"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "1.0.0-rc.12",
+    "hono": "2.7.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vitest": "^0.26.3",
+    "wrangler": "2.6.2"
+  },
+  "scripts": {
+    "dev:api": "wrangler dev api/index.js",
+    "publish:api": "wrangler publish api/index.js"
+  }
 }
