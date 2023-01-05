@@ -65,7 +65,6 @@ const getLeaderboard = async () => {
       Object.fromEntries(leaderboardEntries);
     const team = getTeamFromName(teamName);
 
-    // leaderboard.push(Object.fromEntries(leaderboardEntries));
     leaderboard.push({ ...leaderboardForTeam, team });
   });
 
