@@ -1,7 +1,12 @@
 // ES6 or TypeScript:
 import * as cheerio from "cheerio";
-import { writeFile } from "node:fs/promises";
+import { writeFile, readFile } from "node:fs/promises";
 import path from "node:path";
+
+const DB_PATH = path.join(process.cwd(), "db");
+const TEAMS = await readFile(path.join(DB_PATH, "teams.json"), "utf-8").then(
+  JSON.parse
+);
 
 const URLS = {
   leaderboard: "https://kingsleague.pro/estadisticas/clasificacion/",
@@ -28,6 +33,11 @@ const getLeaderboard = async () => {
     redCards: { selector: ".fs-table-text_9", typeOf: "number" },
   };
 
+  const getTeamFromName = (name) => {
+    const team = TEAMS.find((team) => team.name === name);
+    return team;
+  };
+
   const cleanText = (text) =>
     text
       .replace(/\t|\n|\s:/g, "")
@@ -51,8 +61,14 @@ const getLeaderboard = async () => {
         return [key, value];
       }
     );
-    leaderboard.push(Object.fromEntries(leaderboardEntries));
+    const { team: teamName, ...leaderboardForTeam } =
+      Object.fromEntries(leaderboardEntries);
+    const team = getTeamFromName(teamName);
+
+    // leaderboard.push(Object.fromEntries(leaderboardEntries));
+    leaderboard.push({ ...leaderboardForTeam, team });
   });
+
   return leaderboard;
 };
 
