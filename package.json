@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "API y website de la Kins League con fines educativos",
   "main": "index.js",
+  "type": "module",
   "author": "maycomayco",
-  "license": "MIT"
+  "license": "MIT",
+  "volta": {
+    "node": "18.12.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {}
 }
