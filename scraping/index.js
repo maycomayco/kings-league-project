@@ -12,6 +12,7 @@ const URLS = {
   leaderboard: "https://kingsleague.pro/estadisticas/clasificacion/",
 };
 
+// method to get the html from a url
 const scrape = async (url) => {
   const resp = await fetch(url);
   const html = await resp.text();
@@ -63,6 +64,7 @@ const getLeaderboard = async () => {
     );
     const { team: teamName, ...leaderboardForTeam } =
       Object.fromEntries(leaderboardEntries);
+
     const team = getTeamFromName(teamName);
 
     leaderboard.push({ ...leaderboardForTeam, team });
