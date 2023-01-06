@@ -9,17 +9,52 @@
  */
 import { Hono } from "hono";
 import { serveStatic } from "hono/serve-static.module";
+
+// databases to read from
 import leaderboard from "../db/leaderboard.json";
+import presidents from "../db/presidents.json";
+import teams from "../db/teams.json";
 
 const app = new Hono();
 
 app.get("/", (ctx) =>
-  ctx.json({
-    message: "Hello, World!",
-  })
+  ctx.json([
+    {
+      endpoint: "/leaderboard",
+      description: "Returns the leaderboard",
+    },
+    {
+      endpoint: "/teams",
+      description: "Returns the teams",
+    },
+    {
+      endpoint: "/presidents",
+      description: "Returns the presidents",
+    },
+  ])
 );
 
-app.get("/leaderboard", (ctx) => ctx.json(leaderboard));
+// DB endpoints
+app.get("/leaderboard", (ctx) => {
+  return ctx.json(leaderboard);
+});
+
+app.get("/presidents", (ctx) => {
+  return ctx.json(presidents);
+});
+
+app.get("/presidents/:id", (ctx) => {
+  const id = ctx.req.param("id");
+  const president = presidents.find((president) => president.id === id);
+
+  return president
+    ? ctx.json(president)
+    : ctx.json({ message: "president not found" }, 404);
+});
+
+app.get("/teams", (ctx) => {
+  return ctx.json(teams);
+});
 
 // This middleware distributes asset files that are put in directory specified root or path option.
 app.get("/static/*", serveStatic({ root: "./" }));
