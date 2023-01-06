@@ -2,7 +2,7 @@
   {
     "id": "el-barrio",
     "name": "El Barrio",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/el-bbarrio.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -17,8 +17,8 @@
   },
   {
     "id": "ultimate-mostoles",
-    "name": "Ultimate Mostoles",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "name": "Ultimate Móstoles",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/ultimate-mostoles.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -34,7 +34,7 @@
   {
     "id": "los-troncos-fc",
     "name": "Los Troncos FC",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/los-troncos.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -66,7 +66,7 @@
   {
     "id": "saiyans-fc",
     "name": "Saiyans FC",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/saiyans-fc.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -82,7 +82,7 @@
   {
     "id": "kunisports",
     "name": "Kunisports",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/kunisports.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -98,7 +98,7 @@
   {
     "id": "jijantes-fc",
     "name": "Jijantes FC",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/jijantes-fc.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -114,7 +114,7 @@
   {
     "id": "porcinos-fc",
     "name": "Porcinos FC",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/porcinos-fc.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -130,7 +130,7 @@
   {
     "id": "rayo-barcelona",
     "name": "Rayo de Barcelona",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/rayo-barcelona.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -146,7 +146,7 @@
   {
     "id": "xbuyer-team",
     "name": "XBUYER TEAM",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/xbuyer-team.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
@@ -162,7 +162,7 @@
   {
     "id": "aniquiladores-fc",
     "name": "Aniquiladores FC",
-    "image": "https://kings-league-api.midudev.workers.dev/static/logos/1k.svg",
+    "image": "https://kings-league-api.midudev.workers.dev/static/logos/aniquiladores-fc.svg",
     "url": "",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
