@@ -1,0 +1,19 @@
+name: Deploy API
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy: # it can be any name, is like a label
+  runs-on: ubuntu-22.04
+  name: Deploy API to Cloudflare Workers
+  steps:
+    - uses: actions/checkout@v3
+      run: yarn install
+
+    - uses: cloudflare/wrangler-action@2.0.0
+      with:
+        apiToken: ${{ secrets.CF_API_TOKEN }}
+        workingDirectory: api # lugar donde esta el archivo de la api
