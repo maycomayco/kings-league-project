@@ -1,0 +1,33 @@
+name: Scrape website
+
+# Cuando quiero que esto suceda.
+on:
+  # para utilizar un btn
+  workflow_dispatch:
+  
+  # para utilizar un webhook, curl
+  repository_dispatch:
+    types:
+      - webhook
+# progamamos para que ocurra cada cierto tiempo
+  schedule:
+  # se ejecutara cada hora de los dias domingos
+    - cron: 0 */1 * * 0
+
+# el trabajo que queremos que haga
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-dept: 0 # profundida del fetch
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run:
+          node scraping/leaderboard.js
+          git config user.name kings-league-bot
+          git add -A
+          git commit -m "[bot] Update Kings League DB"
+          git push origin main
