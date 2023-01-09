@@ -17,7 +17,7 @@ on:
 # el trabajo que queremos que haga
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
       - name: Set Node.js 18.12.1
