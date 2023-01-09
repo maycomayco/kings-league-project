@@ -1,0 +1,343 @@
+[
+  {
+    "wins": 2,
+    "loses": 0,
+    "scoredGoals": 8,
+    "concededGoals": 3,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg",
+      "url": "",
+      "channel": "https://youtube.com/DjMaRiiO",
+      "socialNetworks": [
+        "https://m.youtube.com/user/DjMaRiiO/videos"
+      ],
+      "players": [],
+      "coach": "Nacho Castro",
+      "coachInfo": {},
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/djmariio.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 2,
+    "loses": 0,
+    "scoredGoals": 8,
+    "concededGoals": 3,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "1k",
+      "name": "1K FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
+      "url": "",
+      "channel": "https://www.youtube.com/@IkerCasillas",
+      "socialNetworks": [
+        "https://www.instagram.com/1kfutbolclub/?hl=es",
+        "https://twitter.com/1kfutbolclub",
+        "https://www.youtube.com/c/IkerCasillas",
+        "https://www.tiktok.com/@1kfutbolclub"
+      ],
+      "players": [],
+      "coach": "Julio García Mera",
+      "coachInfo": {},
+      "president": {
+        "id": "iker-casillas",
+        "name": "Iker Casillas",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/iker-casillas.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 2,
+    "loses": 0,
+    "scoredGoals": 5,
+    "concededGoals": 3,
+    "yellowCards": 3,
+    "redCards": 0,
+    "team": {
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg",
+      "url": "",
+      "channel": "https://twitch.tv/thegrefg",
+      "socialNetworks": [
+        "https://www.twitch.tv/thegrefg"
+      ],
+      "players": [],
+      "coach": "Daniel Romo",
+      "coachInfo": {},
+      "president": {
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/thegrefg.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 2,
+    "loses": 0,
+    "scoredGoals": 3,
+    "concededGoals": 1,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
+      "url": "",
+      "channel": "https://twitch.tv/slakun10",
+      "socialNetworks": [
+        "https://www.twitch.tv/slakun10"
+      ],
+      "players": [],
+      "coach": "Martín Posse",
+      "coachInfo": {},
+      "president": {
+        "id": "kun-aguero",
+        "name": "Kun Agüero",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/kun-aguero.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 1,
+    "loses": 1,
+    "scoredGoals": 7,
+    "concededGoals": 3,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
+      "url": "",
+      "channel": "https://twitch.tv/1k",
+      "socialNetworks": [
+        "https://www.instagram.com/elbarrioklk/?hl=es",
+        "https://www.tiktok.com/@adricontreras4",
+        "https://twitter.com/elbarrioklk_",
+        "https://www.tiktok.com/@elbarrioklk"
+      ],
+      "players": [],
+      "coach": "Juan Arroita",
+      "coachInfo": {},
+      "president": {
+        "id": "adri-contreras",
+        "name": "Adri Contreras",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/adri-contreras.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 1,
+    "loses": 1,
+    "scoredGoals": 8,
+    "concededGoals": 8,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg",
+      "url": "",
+      "channel": "https://twitch.tv/perxitaa",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [],
+      "coach": "Pol Font",
+      "coachInfo": {},
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/perxitaa.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 1,
+    "loses": 1,
+    "scoredGoals": 7,
+    "concededGoals": 7,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "porcinos-fc",
+      "name": "Porcinos FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg",
+      "url": "",
+      "channel": "https://twitch.tv/ibai",
+      "socialNetworks": [
+        "https://www.twitch.tv/ibai",
+        "https://twitter.com/FCPorcinos"
+      ],
+      "players": [],
+      "coach": "Juvenal Edjogo",
+      "coachInfo": {},
+      "president": {
+        "id": "ibai-llanos",
+        "name": "Ibai Llanos",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/ibai-llanos.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 1,
+    "loses": 1,
+    "scoredGoals": 7,
+    "concededGoals": 7,
+    "yellowCards": 0,
+    "redCards": 0,
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
+      "url": "",
+      "channel": "https://twitch.tv/spursito",
+      "socialNetworks": [
+        "https://www.twitch.tv/spursito",
+        "https://www.instagram.com/rayodebarcelona/?hl=es",
+        "https://twitter.com/RayodeBarcelona",
+        "https://www.tiktok.com/@rayodebarcelona"
+      ],
+      "players": [],
+      "coach": "JuanluDBZ",
+      "coachInfo": {},
+      "president": {
+        "id": "spursito",
+        "name": "Spursito",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/spursito.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 0,
+    "loses": 2,
+    "scoredGoals": 4,
+    "concededGoals": 7,
+    "yellowCards": 2,
+    "redCards": 0,
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes.svg",
+      "url": "",
+      "channel": "https://twitch.tv/gerardromero",
+      "socialNetworks": [
+        "https://www.twitch.tv/gerardromero",
+        "https://www.instagram.com/jijantesfc/?hl=es",
+        "https://twitter.com/JijantesFC?s=20&t=40PQRh7lXf2HVdUs1pe-9w",
+        "https://www.tiktok.com/@jijantesfutbolclub"
+      ],
+      "players": [],
+      "coach": "Marc Carmona",
+      "coachInfo": {},
+      "president": {
+        "id": "gerard-romero",
+        "name": "Gerard Romero",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/gerard-romero.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 0,
+    "loses": 2,
+    "scoredGoals": 3,
+    "concededGoals": 6,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer.svg",
+      "url": "",
+      "channel": "https://www.youtube.com/xbuyer",
+      "socialNetworks": [
+        "https://www.youtube.com/xbuyer"
+      ],
+      "players": [],
+      "coach": "Víctor González",
+      "coachInfo": {},
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/hnos-buyer.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 0,
+    "loses": 2,
+    "scoredGoals": 3,
+    "concededGoals": 8,
+    "yellowCards": 0,
+    "redCards": 0,
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
+      "url": "",
+      "channel": "https://twitch.tv/juansguarnizo",
+      "socialNetworks": [
+        "https://www.twitch.tv/juansguarnizo"
+      ],
+      "players": [],
+      "coach": "Sergio Verdirame",
+      "coachInfo": {},
+      "president": {
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/juan-guarnizo.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 0,
+    "loses": 2,
+    "scoredGoals": 1,
+    "concededGoals": 6,
+    "yellowCards": 3,
+    "redCards": 0,
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio.svg",
+      "url": "",
+      "channel": "https://twitch.tv/rivers_gg",
+      "socialNetworks": [
+        "https://www.twitch.tv/rivers_gg",
+        "https://twitter.com/PIO_FC"
+      ],
+      "players": [],
+      "coach": "Gerardo Torrado",
+      "coachInfo": {},
+      "president": {
+        "id": "rivers",
+        "name": "Rivers",
+        "image": "https://kings-league.maycobarale.workers.dev/static/presidents/rivers.png",
+        "teamId": 0
+      }
+    }
+  }
+]
