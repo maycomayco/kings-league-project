@@ -14,8 +14,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.12.1
-      # - name: Install dependencies
-      # run: yarn
+      - name: Install dependencies
+        run: npm i
 
       - uses: cloudflare/wrangler-action@2.0.0
         with:
