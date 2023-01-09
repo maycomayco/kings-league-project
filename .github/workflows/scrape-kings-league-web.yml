@@ -24,12 +24,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18.12.1
-      - name: Run install
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: install # will run `yarn install` command
-      - run: node scraping/leaderboard.js
+      - run: |
+          yarn install
+          node scraping/leaderboard.js
           git config user.name kings-league-bot
           git add -A
-          git commit -m "[bot] Update Kings League DB"
+          git commit -m "[bot] Update Kings League Database"
           git push origin main
