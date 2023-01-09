@@ -1,7 +1,7 @@
 {
   "name": "kings-league",
-  "version": "1.0.0",
-  "description": "API y website de la Kins League con fines educativos",
+  "version": "1.0.1",
+  "description": "Kings League is a game where you can play with your friends and have fun. API and web",
   "main": "index.js",
   "type": "module",
   "author": "maycomayco",
