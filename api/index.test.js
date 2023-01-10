@@ -1,26 +1,30 @@
-import { unstable_dev } from "wrangler";
+import { unstable_dev as unstableDev } from "wrangler";
 import { describe, expect, it, beforeAll, afterAll } from "vitest";
 
 describe("Worker", () => {
-	let worker;
+  let worker;
 
-	beforeAll(async () => {
-		worker = await unstable_dev(
-			"src/index.js",
-			{},
-			{ disableExperimentalWarning: true }
-		);
-	});
+  beforeAll(async () => {
+    worker = await unstableDev(
+      "api/index.js",
+      {},
+      { disableExperimentalWarning: true }
+    );
+  });
 
-	afterAll(async () => {
-		await worker.stop();
-	});
+  afterAll(async () => {
+    await worker.stop();
+  });
 
-	it("should return Hello World", async () => {
-		const resp = await worker.fetch();
-		if (resp) {
-			const text = await resp.text();
-			expect(text).toMatchInlineSnapshot(`"Hello World!"`);
-		}
-	});
+  it("routes should have endpoint and description", async () => {
+    const resp = await worker.fetch();
+    if (resp) {
+      const apiRoutes = await resp.json();
+      // verify the response to have the expected format
+      apiRoutes.forEach((endpoint) => {
+        expect(endpoint).toHaveProperty("endpoint");
+        expect(endpoint).toHaveProperty("description");
+      });
+    }
+  });
 });
