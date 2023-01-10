@@ -89,7 +89,7 @@
   {
     "id": "jijantes-fc",
     "name": "Jijantes FC",
-    "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes.svg",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg",
     "url": "",
     "presidentId": "gerard-romero",
     "channel": "https://twitch.tv/gerardromero",
@@ -138,7 +138,7 @@
   {
     "id": "xbuyer-team",
     "name": "XBUYER TEAM",
-    "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer.svg",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-team.svg",
     "url": "",
     "presidentId": "hnos-buyer",
     "channel": "https://www.youtube.com/xbuyer",
@@ -150,7 +150,7 @@
   {
     "id": "aniquiladores-fc",
     "name": "Aniquiladores FC",
-    "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc.svg",
     "url": "",
     "presidentId": "juan-guarnizo",
     "channel": "https://twitch.tv/juansguarnizo",
@@ -162,7 +162,7 @@
   {
     "id": "pio-fc",
     "name": "PIO FC",
-    "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio.svg",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc.svg",
     "url": "",
     "presidentId": "rivers",
     "channel": "https://twitch.tv/rivers_gg",
