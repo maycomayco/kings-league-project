@@ -1,0 +1,49 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const response = await fetch(
+  "https://kings-league.maycobarale.workers.dev/teams"
+);
+const teams = await response.json();
+---
+
+<Layout title="Welcome to Astro.">
+  <div class="container m-auto">
+    <header class="flex">
+      {
+        teams.map(({ id, name, image }) => (
+          <div>
+            <a href={`/teams/${id}`}>
+              <img
+                class="aspect-square w-16"
+                src={image}
+                alt={`Escudo de ${name}`}
+              />
+            </a>
+          </div>
+        ))
+      }
+
+      <nav>
+        <ul>
+          <li>
+            <a href="/teams">Equipos</a>
+          </li>
+          <li>
+            <a href="/calendario">Calendario</a>
+          </li>
+          <li>
+            <a href="/estadisticas">Estadisticas</a>
+          </li>
+          <li>
+            <a href="/contacto">Contacto</a>
+          </li>
+          <li>
+            <a href="/reglamento">Reglamento</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main></main>
+  </div>
+</Layout>
