@@ -56,6 +56,15 @@ app.get("/teams", (ctx) => {
   return ctx.json(teams);
 });
 
+app.get("/teams/:id", (ctx) => {
+  const id = ctx.req.param("id");
+  const foundTeam = teams.find((team) => team.id === id);
+
+  return foundTeam
+    ? ctx.json(foundTeam)
+    : ctx.json({ message: "Team not found" }, 404);
+});
+
 // This middleware distributes asset files that are put in directory specified root or path option.
 app.get("/static/*", serveStatic({ root: "./" }));
 
