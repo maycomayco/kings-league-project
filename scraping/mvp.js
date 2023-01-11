@@ -6,7 +6,6 @@ async function getMvpList() {
   const $rows = $("table tbody tr");
 
   const MVP_SELECTORS = {
-    rank: { selector: ".fs-table-text_1", typeOf: "number" },
     team: { selector: ".fs-table-text_3", typeOf: "string" },
     playerName: { selector: ".fs-table-text_4", typeOf: "string" },
     gamesPlayed: { selector: ".fs-table-text_5", typeOf: "number" },
@@ -20,7 +19,7 @@ async function getMvpList() {
 
   const mvpSelectorEntries = Object.entries(MVP_SELECTORS);
   const mvpList = [];
-  $rows.each((_, el) => {
+  $rows.each((index, el) => {
     const mvpEntries = mvpSelectorEntries.map(([key, { selector, typeOf }]) => {
       const rawValue = $(el).find(selector).text();
       const cleanedValue = cleanText(rawValue);
@@ -34,11 +33,12 @@ async function getMvpList() {
 
     mvpList.push({
       ...mvpData,
+      rank: index + 1,
       team: teamName,
       image,
     });
-    //mvpList.push(Object.fromEntries(mvpEntries))
   });
+
   return mvpList;
 }
 
