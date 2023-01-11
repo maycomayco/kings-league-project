@@ -35,11 +35,11 @@ app.get("/", (ctx) =>
 );
 
 // DB endpoints
-app.get("/leaderboard\\/?", (ctx) => {
+app.get("/leaderboard", (ctx) => {
   return ctx.json(leaderboard);
 });
 
-app.get("/presidents\\/?", (ctx) => {
+app.get("/presidents", (ctx) => {
   return ctx.json(presidents);
 });
 
@@ -52,7 +52,7 @@ app.get("/presidents/:id", (ctx) => {
     : ctx.json({ message: "president not found" }, 404);
 });
 
-app.get("/teams\\/?", (ctx) => {
+app.get("/teams", (ctx) => {
   return ctx.json(teams);
 });
 
@@ -67,5 +67,17 @@ app.get("/teams/:id", (ctx) => {
 
 // This middleware distributes asset files that are put in directory specified root or path option.
 app.get("/static/*", serveStatic({ root: "./" }));
+
+// not found handler for trailins slash
+app.notFound((c) => {
+  const { pathname } = new URL(c.req.url);
+
+  // redirect to non-trailing slash url
+  if (c.req.url.at(-1) === "/") {
+    return c.redirect(pathname.slice(0, -1));
+  }
+
+  return c.json({ message: "Not Found" }, 404);
+});
 
 export default app;
