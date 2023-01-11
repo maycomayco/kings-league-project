@@ -1,5 +1,5 @@
 import { writeDBFile, TEAMS } from "../db/index.js";
-import { URLS, scrape } from "./utils.js";
+import { URLS, scrape, cleanText } from "./utils.js";
 
 async function getMvpList() {
   const $ = await scrape(URLS.mvp);
@@ -17,12 +17,6 @@ async function getMvpList() {
     const { image } = TEAMS.find((team) => team.name === name);
     return image;
   };
-
-  const cleanText = (text) =>
-    text
-      .replace(/\t|\n|\s:/g, "")
-      .replace(/.*:/g, " ")
-      .trim();
 
   const mvpSelectorEntries = Object.entries(MVP_SELECTORS);
   const mvpList = [];
