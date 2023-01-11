@@ -1,18 +1,7 @@
 // ES6 or TypeScript:
 import * as cheerio from "cheerio";
 import { writeDBFile, TEAMS, PRESIDENTS } from "../db/index.js";
-
-const URLS = {
-  leaderboard: "https://kingsleague.pro/estadisticas/clasificacion/",
-};
-
-// method to get the html from a url
-const scrape = async (url) => {
-  const resp = await fetch(url);
-  const html = await resp.text();
-  const $ = cheerio.load(html);
-  return $;
-};
+import { URLS, scrape } from "./utils.js";
 
 const getLeaderboard = async () => {
   const $ = await scrape(URLS.leaderboard);
