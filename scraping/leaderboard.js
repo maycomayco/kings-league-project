@@ -1,7 +1,7 @@
 // ES6 or TypeScript:
 import * as cheerio from "cheerio";
 import { writeDBFile, TEAMS, PRESIDENTS } from "../db/index.js";
-import { URLS, scrape } from "./utils.js";
+import { URLS, scrape, cleanText } from "./utils.js";
 
 const getLeaderboard = async () => {
   const $ = await scrape(URLS.leaderboard);
@@ -29,12 +29,6 @@ const getLeaderboard = async () => {
     // join the team data with the president data
     return { ...restOfTeam, president };
   };
-
-  const cleanText = (text) =>
-    text
-      .replace(/\t|\n|\s:/g, "")
-      .replace(/.*:/g, "")
-      .trim();
 
   const leaderboardSelectorsEntries = Object.entries(LEADERBOARD_SELECTORS);
 
