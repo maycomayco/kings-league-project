@@ -1,7 +1,7 @@
 [
   {
     "wins": 2,
-    "loses": 0,
+    "losses": 0,
     "scoredGoals": 8,
     "concededGoals": 3,
     "yellowCards": 1,
@@ -28,7 +28,7 @@
   },
   {
     "wins": 2,
-    "loses": 0,
+    "losses": 0,
     "scoredGoals": 7,
     "concededGoals": 4,
     "yellowCards": 0,
@@ -38,7 +38,7 @@
       "name": "1K FC",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
       "url": "",
-      "channel": "https://www.youtube.com/@IkerCasillas",
+      "channel": "https://www.twitch.tv/ikerCasillas",
       "socialNetworks": [
         "https://www.instagram.com/1kfutbolclub/?hl=es",
         "https://twitter.com/1kfutbolclub",
@@ -58,7 +58,7 @@
   },
   {
     "wins": 2,
-    "loses": 0,
+    "losses": 0,
     "scoredGoals": 5,
     "concededGoals": 3,
     "yellowCards": 3,
@@ -85,7 +85,7 @@
   },
   {
     "wins": 2,
-    "loses": 0,
+    "losses": 0,
     "scoredGoals": 3,
     "concededGoals": 1,
     "yellowCards": 1,
@@ -112,7 +112,7 @@
   },
   {
     "wins": 1,
-    "loses": 1,
+    "losses": 1,
     "scoredGoals": 7,
     "concededGoals": 3,
     "yellowCards": 1,
@@ -120,7 +120,7 @@
     "team": {
       "id": "el-barrio",
       "name": "El Barrio",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-bbarrio.svg",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
       "url": "",
       "channel": "https://twitch.tv/1k",
       "socialNetworks": [
@@ -142,7 +142,7 @@
   },
   {
     "wins": 1,
-    "loses": 1,
+    "losses": 1,
     "scoredGoals": 8,
     "concededGoals": 8,
     "yellowCards": 1,
@@ -172,7 +172,7 @@
   },
   {
     "wins": 1,
-    "loses": 1,
+    "losses": 1,
     "scoredGoals": 7,
     "concededGoals": 7,
     "yellowCards": 1,
@@ -200,7 +200,7 @@
   },
   {
     "wins": 1,
-    "loses": 1,
+    "losses": 1,
     "scoredGoals": 7,
     "concededGoals": 7,
     "yellowCards": 0,
@@ -230,7 +230,7 @@
   },
   {
     "wins": 0,
-    "loses": 2,
+    "losses": 2,
     "scoredGoals": 4,
     "concededGoals": 7,
     "yellowCards": 2,
@@ -238,7 +238,7 @@
     "team": {
       "id": "jijantes-fc",
       "name": "Jijantes FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes.svg",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg",
       "url": "",
       "channel": "https://twitch.tv/gerardromero",
       "socialNetworks": [
@@ -260,7 +260,7 @@
   },
   {
     "wins": 0,
-    "loses": 2,
+    "losses": 2,
     "scoredGoals": 3,
     "concededGoals": 6,
     "yellowCards": 1,
@@ -268,7 +268,7 @@
     "team": {
       "id": "xbuyer-team",
       "name": "XBUYER TEAM",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer.svg",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-team.svg",
       "url": "",
       "channel": "https://www.youtube.com/xbuyer",
       "socialNetworks": [
@@ -287,7 +287,7 @@
   },
   {
     "wins": 0,
-    "loses": 2,
+    "losses": 2,
     "scoredGoals": 3,
     "concededGoals": 8,
     "yellowCards": 0,
@@ -295,7 +295,7 @@
     "team": {
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc.svg",
       "url": "",
       "channel": "https://twitch.tv/juansguarnizo",
       "socialNetworks": [
@@ -314,7 +314,7 @@
   },
   {
     "wins": 0,
-    "loses": 2,
+    "losses": 2,
     "scoredGoals": 1,
     "concededGoals": 6,
     "yellowCards": 3,
@@ -322,7 +322,7 @@
     "team": {
       "id": "pio-fc",
       "name": "PIO FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio.svg",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc.svg",
       "url": "",
       "channel": "https://twitch.tv/rivers_gg",
       "socialNetworks": [
