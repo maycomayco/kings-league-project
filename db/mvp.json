@@ -1,0 +1,98 @@
+[
+  {
+    "playerName": "Lao",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 1,
+    "team": "Porcinos FC",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg"
+  },
+  {
+    "playerName": "Ubón",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 2,
+    "team": "El Barrio",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "playerName": "Feliu",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 3,
+    "team": "Saiyans FC",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg"
+  },
+  {
+    "playerName": "R. Carbó",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 4,
+    "team": "Saiyans FC",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg"
+  },
+  {
+    "playerName": "Jacobo",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 5,
+    "team": "El Barrio",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "playerName": "J. Verdú «Gingko»",
+    "gamesPlayed": 1,
+    "mvps": 1,
+    "rank": 6,
+    "team": "Los Troncos FC",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg"
+  },
+  {
+    "playerName": "Juanma Glez",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 7,
+    "team": "Ultimate Móstoles",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg"
+  },
+  {
+    "playerName": "Torrentbó",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 8,
+    "team": "Kunisports",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg"
+  },
+  {
+    "playerName": "Víctor",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 9,
+    "team": "Kunisports",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg"
+  },
+  {
+    "playerName": "Sorroche",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 10,
+    "team": "1K FC",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg"
+  },
+  {
+    "playerName": "Ricardo",
+    "gamesPlayed": 2,
+    "mvps": 1,
+    "rank": 11,
+    "team": "1K FC",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg"
+  },
+  {
+    "playerName": "Ibai",
+    "gamesPlayed": 1,
+    "mvps": 1,
+    "rank": 12,
+    "team": "Jijantes FC",
+    "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg"
+  }
+]
