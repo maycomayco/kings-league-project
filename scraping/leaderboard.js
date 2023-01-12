@@ -1,11 +1,8 @@
-// ES6 or TypeScript:
-import * as cheerio from "cheerio";
-import { writeDBFile, TEAMS, PRESIDENTS } from "../db/index.js";
-import { URLS, scrape, cleanText } from "./utils.js";
+import { TEAMS, PRESIDENTS } from "../db/index.js";
+import { cleanText } from "./utils.js";
 
-const getLeaderboard = async () => {
-  const $ = await scrape(URLS.leaderboard);
-  const $rows = $("table tbody tr");
+export const getLeaderboard = async (cheerioInput) => {
+  const $rows = cheerioInput("table tbody tr");
 
   const LEADERBOARD_SELECTORS = {
     team: { selector: ".fs-table-text_3", typeOf: "string" },
@@ -39,7 +36,7 @@ const getLeaderboard = async () => {
     const leaderboardEntries = leaderboardSelectorsEntries.map(
       ([key, { selector, typeOf }]) => {
         // each selector is a column with data in a table
-        const rawValue = $(el).find(selector).text();
+        const rawValue = cheerioInput(el).find(selector).text();
         const cleanedValue = cleanText(rawValue);
         //identify the type of the value and convert it to the correct type
         const value = typeOf === "number" ? Number(cleanedValue) : cleanedValue;
@@ -57,15 +54,3 @@ const getLeaderboard = async () => {
 
   return leaderboard;
 };
-
-const leaderboardOutput = await getLeaderboard();
-
-/*
-  - path.join() method joins all given path segments together using the platform-specific separator as a delimiter, then normalizes the resulting path.
-  - process.cwd() returns the current working directory of the Node.js process
-*/
-
-// const filePath = path.join(process.cwd(), "db/leaderboard.json");
-
-// await writeFile(filePath, JSON.stringify(leaderboardOutput, null, 2), "utf-8");
-await writeDBFile("leaderboard", leaderboardOutput);
