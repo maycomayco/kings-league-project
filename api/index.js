@@ -14,7 +14,9 @@ import { serveStatic } from "hono/serve-static.module";
 import leaderboard from "../db/leaderboard.json";
 import presidents from "../db/presidents.json";
 import teams from "../db/teams.json";
-import coachs from "../db/coachs.json";
+import coaches from "../db/coaches.json";
+import top_scorer from "../db/top_scorer.json";
+import mvp from "../db/mvp.json";
 
 const app = new Hono();
 
@@ -33,8 +35,8 @@ app.get("/", (ctx) =>
       description: "Returns the presidents",
     },
     {
-      endpoint: "/coachs",
-      description: "Returns Kings League coachs",
+      endpoint: "/coaches",
+      description: "Returns Kings League coaches",
     },
   ])
 );
@@ -42,6 +44,14 @@ app.get("/", (ctx) =>
 // DB endpoints
 app.get("/leaderboard", (ctx) => {
   return ctx.json(leaderboard);
+});
+
+app.get("/top-scorer", (ctx) => {
+  return ctx.json(top_scorer);
+});
+
+app.get("/mvp", (ctx) => {
+  return ctx.json(mvp);
 });
 
 app.get("/presidents", (ctx) => {
@@ -70,8 +80,8 @@ app.get("/teams/:id", (ctx) => {
     : ctx.json({ message: "Team not found" }, 404);
 });
 
-app.get("/coachs", (ctx) => {
-  return ctx.json(coachs);
+app.get("/coaches", (ctx) => {
+  return ctx.json(coaches);
 });
 
 // This middleware distributes asset files that are put in directory specified root or path option.
