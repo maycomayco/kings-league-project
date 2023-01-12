@@ -21,7 +21,7 @@ jobs:
           node-version: 18.12.1
       - run: | # this is the syntax to run more than one command
           yarn install
-          node scraping/leaderboard.js
+          npm run scrapte
           git config user.name kings-league-bot
           git add -A
           git commit -m "[bot] Update Kings League Database"
