@@ -9,8 +9,8 @@ const SCORES_SELECTORS = {
   goals: { selector: ".fs-table-text_6", typeOf: "number" },
 };
 
-export async function getTopScoresList($) {
-  const $rows = $("table tbody tr");
+export const getTopScorerList = (cheerioInput) => {
+  const $rows = cheerioInput("table tbody tr");
 
   const getImageFromTeam = ({ name }) => {
     const { image } = TEAMS.find((team) => team.name === name);
@@ -18,12 +18,12 @@ export async function getTopScoresList($) {
   };
 
   const scoresSelectorEntries = Object.entries(SCORES_SELECTORS);
-  const mvpList = [];
+  const topScorerList = [];
 
   $rows.each((index, el) => {
-    const mvpEntries = scoresSelectorEntries.map(
+    const topScorerEntries = scoresSelectorEntries.map(
       ([key, { selector, typeOf }]) => {
-        const rawValue = $(el).find(selector).text();
+        const rawValue = cheerioInput(el).find(selector).text();
         const cleanedValue = cleanText(rawValue);
 
         const value = typeOf === "number" ? Number(cleanedValue) : cleanedValue;
@@ -32,16 +32,17 @@ export async function getTopScoresList($) {
       }
     );
 
-    const { team: teamName, ...mvpData } = Object.fromEntries(mvpEntries);
+    const { team: teamName, ...topScorerData } =
+      Object.fromEntries(topScorerEntries);
     const image = getImageFromTeam({ name: teamName });
 
-    mvpList.push({
-      ...mvpData,
+    topScorerList.push({
+      ...topScorerData,
       rank: index + 1,
       team: teamName,
       image,
     });
   });
 
-  return mvpList;
-}
+  return topScorerList;
+};
