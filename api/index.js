@@ -17,6 +17,7 @@ import teams from "../db/teams.json";
 import coaches from "../db/coaches.json";
 import topScorer from "../db/top_scorer.json";
 import mvp from "../db/mvp.json";
+import assists from "../db/assists.json";
 
 const app = new Hono();
 
