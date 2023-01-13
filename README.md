@@ -1,5 +1,9 @@
 # Kings league Project
 
+[![Deploy API](https://github.com/maycomayco/kings-league-project/actions/workflows/deploy-api.yml/badge.svg?branch=main)](https://github.com/maikCyphlock/kings-league-project/actions/workflows/deploy-api.yml)
+
+[![Scrape Kings League Infojobs Website](https://github.com/maycomayco/kings-league-project/actions/workflows/scrape-kings-league-web.yml/badge.svg?branch=main)](https://github.com/maikCyphlock/kings-league-project/actions/workflows/scrape-kings-league-web.yml)
+
 Project to create an API from Kings League and your webpage for educational purposes
 
 ## API
