@@ -38,6 +38,10 @@ app.get("/", (ctx) =>
       endpoint: "/coaches",
       description: "Returns Kings League coaches",
     },
+    {
+      endpoint: "/assists",
+      description: "Returns Kings League assists",
+    },
   ])
 );
 
@@ -82,6 +86,10 @@ app.get("/teams/:id", (ctx) => {
 
 app.get("/coaches", (ctx) => {
   return ctx.json(coaches);
+});
+
+app.get("/assists", (ctx) => {
+  return ctx.json(assists);
 });
 
 // This middleware distributes asset files that are put in directory specified root or path option.

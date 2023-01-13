@@ -1,4 +1,4 @@
-import { TEAMS } from "../db/index.js";
+import { getImageFromTeam } from "../db/index.js";
 import { cleanText } from "./utils.js";
 
 export const getMvp = async (cheerioInput) => {
@@ -11,10 +11,10 @@ export const getMvp = async (cheerioInput) => {
     mvps: { selector: ".fs-table-text_6", typeOf: "number" },
   };
 
-  const getImageFromTeam = ({ name }) => {
-    const { image } = TEAMS.find((team) => team.name === name);
-    return image;
-  };
+  // const getImageFromTeam = ({ name }) => {
+  //   const { image } = TEAMS.find((team) => team.name === name);
+  //   return image;
+  // };
 
   const mvpSelectorEntries = Object.entries(MVP_SELECTORS);
   const mvpList = [];

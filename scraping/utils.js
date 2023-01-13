@@ -5,6 +5,7 @@ import { logError, logInfo, logSuccess } from "./logs.js";
 import { getMvp } from "./mvp.js";
 import { getCoaches } from "./coaches.js";
 import { getTopScorerList } from "./top_scorer.js";
+import { getAssists } from "./assists.js";
 
 export const SCRAPINGS = {
   leaderboard: {
@@ -22,6 +23,10 @@ export const SCRAPINGS = {
   top_scorer: {
     url: "https://kingsleague.pro/estadisticas/goles/",
     scraper: getTopScorerList,
+  },
+  assists: {
+    url: "https://kingsleague.pro/estadisticas/asistencias/",
+    scraper: getAssists,
   },
 };
 

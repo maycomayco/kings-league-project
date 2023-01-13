@@ -19,6 +19,11 @@ export const writeDBFile = async (dbName, data) => {
   );
 };
 
+export function getImageFromTeam({ name }) {
+  const { image } = TEAMS.find((team) => team.name === name);
+  return image;
+}
+
 // general files to read in the entire project
 export const TEAMS = await readDBFile("teams");
 export const PRESIDENTS = await readDBFile("presidents");
