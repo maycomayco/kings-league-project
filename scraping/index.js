@@ -1,5 +1,6 @@
-import { scrapeAndSave, SCRAPINGS } from './utils.js'
+import { writeDBFile } from '../db/index.js'
 import { getURLTeams } from './url_teams.js'
+import { scrapeAndSave, SCRAPINGS } from './utils.js'
 
 /*
 	top level await, https://v8.dev/features/top-level-await
