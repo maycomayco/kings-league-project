@@ -8,5 +8,5 @@ bucket = "./assets"
 [env.production]
 vars = { ENVIRONMENT = "production" }
 routes = [
-	{ pattern: "api.kingsleague.dev", custom_domain = true }
+	{ pattern = "api.kingsleague.dev", custom_domain = true }
 ]
