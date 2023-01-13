@@ -15,7 +15,7 @@ import leaderboard from "../db/leaderboard.json";
 import presidents from "../db/presidents.json";
 import teams from "../db/teams.json";
 import coaches from "../db/coaches.json";
-import top_scorer from "../db/top_scorer.json";
+import topScorer from "../db/top_scorer.json";
 import mvp from "../db/mvp.json";
 
 const app = new Hono();
@@ -42,33 +42,20 @@ app.get("/", (ctx) =>
       endpoint: "/assists",
       description: "Returns Kings League assists",
     },
+    {
+      endpoint: "/top-scorer",
+      description: "Returns Kings League assists",
+    },
+    {
+      endpoint: "/mvp",
+      description: "Returns Kings League assists",
+    },
   ])
 );
 
 // DB endpoints
 app.get("/leaderboard", (ctx) => {
   return ctx.json(leaderboard);
-});
-
-app.get("/top-scorer", (ctx) => {
-  return ctx.json(top_scorer);
-});
-
-app.get("/mvp", (ctx) => {
-  return ctx.json(mvp);
-});
-
-app.get("/presidents", (ctx) => {
-  return ctx.json(presidents);
-});
-
-app.get("/presidents/:id", (ctx) => {
-  const id = ctx.req.param("id");
-  const president = presidents.find((president) => president.id === id);
-
-  return president
-    ? ctx.json(president)
-    : ctx.json({ message: "president not found" }, 404);
 });
 
 app.get("/teams", (ctx) => {
@@ -84,12 +71,33 @@ app.get("/teams/:id", (ctx) => {
     : ctx.json({ message: "Team not found" }, 404);
 });
 
+app.get("/presidents", (ctx) => {
+  return ctx.json(presidents);
+});
+
+app.get("/presidents/:id", (ctx) => {
+  const id = ctx.req.param("id");
+  const president = presidents.find((president) => president.id === id);
+
+  return president
+    ? ctx.json(president)
+    : ctx.json({ message: "president not found" }, 404);
+});
+
 app.get("/coaches", (ctx) => {
   return ctx.json(coaches);
 });
 
 app.get("/assists", (ctx) => {
   return ctx.json(assists);
+});
+
+app.get("/top-scorer", (ctx) => {
+  return ctx.json(topScorer);
+});
+
+app.get("/mvp", (ctx) => {
+  return ctx.json(mvp);
 });
 
 // This middleware distributes asset files that are put in directory specified root or path option.
