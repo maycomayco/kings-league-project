@@ -1,4 +1,5 @@
-import { scrapeAndSave, SCRAPINGS } from "./utils.js";
+import { scrapeAndSave, SCRAPINGS } from './utils.js'
+import { getURLTeams } from './url_teams.js'
 
 /*
 	top level await, https://v8.dev/features/top-level-await
@@ -11,5 +12,17 @@ import { scrapeAndSave, SCRAPINGS } from "./utils.js";
 	al tener el await, se espera a que termine la promesa para pasar a la siguiente iteración
 */
 for (const item of Object.keys(SCRAPINGS)) {
-  await scrapeAndSave(item);
+	await scrapeAndSave(item)
 }
+
+/*
+Es un método que utiliza un patrón de la url de la información de cada equipo de la pagina oficial.
+
+Explicacion de patron de la url:
+Las url de la información de cada equipo tiene siempre el patrón de la url base 'https://kingsleague.pro/team/'
+añadiéndole el id del equipo.
+
+Ahí lo añado a que se ejecute luego de que haga el scraping de las paginas ya que este como tal no scrapea sino que lo genera automáticamente en local.
+*/
+const teamsWithUrl = await getURLTeams()
+await writeDBFile('teams', teamsWithUrl)
