@@ -29,10 +29,10 @@ export const getLeaderboard = async (cheerioInput) => {
 
 	$rows.each((idx, el) => {
 		// each row is a team
-		const el = cheerioInput(el)
+		const $el = cheerioInput(el)
 		const leaderboardEntries = leaderboardSelectorsEntries.map(([key, { selector, typeOf }]) => {
 			// each selector is a column with data in a table
-			const rawValue = el.find(selector).text()
+			const rawValue = $el.find(selector).text()
 			const cleanedValue = cleanText(rawValue)
 			//identify the type of the value and convert it to the correct type
 			const value = typeOf === 'number' ? Number(cleanedValue) : cleanedValue
