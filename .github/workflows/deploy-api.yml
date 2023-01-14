@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy: # it can be any name, is like a label
-    name: Deploy API to Cloudflare Workers
+    name: Deploy API
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
