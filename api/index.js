@@ -7,113 +7,109 @@
  *
  * Learn more at https://developers.cloudflare.com/workers/
  */
-import { Hono } from "hono";
-import { serveStatic } from "hono/serve-static.module";
+import { Hono } from 'hono'
+import { serveStatic } from 'hono/serve-static.module'
 
 // databases to read from
-import leaderboard from "../db/leaderboard.json";
-import presidents from "../db/presidents.json";
-import teams from "../db/teams.json";
-import coaches from "../db/coaches.json";
-import topScorer from "../db/top_scorer.json";
-import mvp from "../db/mvp.json";
-import assists from "../db/assists.json";
+import topAssists from '../db/top_assists.json'
+import coaches from '../db/coaches.json'
+import leaderboard from '../db/leaderboard.json'
+import mvp from '../db/mvp.json'
+import presidents from '../db/presidents.json'
+import teams from '../db/teams.json'
+import topScorers from '../db/top_scorers.json'
 
-const app = new Hono();
+const app = new Hono()
 
-app.get("/", (ctx) =>
-  ctx.json([
-    {
-      endpoint: "/leaderboard",
-      description: "Returns the leaderboard",
-    },
-    {
-      endpoint: "/teams",
-      description: "Returns the teams",
-    },
-    {
-      endpoint: "/presidents",
-      description: "Returns the presidents",
-    },
-    {
-      endpoint: "/coaches",
-      description: "Returns Kings League coaches",
-    },
-    {
-      endpoint: "/assists",
-      description: "Returns Kings League assists",
-    },
-    {
-      endpoint: "/top-scorer",
-      description: "Returns Kings League assists",
-    },
-    {
-      endpoint: "/mvp",
-      description: "Returns Kings League assists",
-    },
-  ])
-);
+app.get('/', (ctx) =>
+	ctx.json([
+		{
+			endpoint: '/leaderboard',
+			description: 'Returns the leaderboard'
+		},
+		{
+			endpoint: '/teams',
+			description: 'Returns the teams'
+		},
+		{
+			endpoint: '/presidents',
+			description: 'Returns the presidents'
+		},
+		{
+			endpoint: '/coaches',
+			description: 'Returns Kings League coaches'
+		},
+		{
+			endpoint: '/top-assists',
+			description: 'Returns Kings League Top Assists'
+		},
+		{
+			endpoint: '/top-scorers',
+			description: 'Returns Kings League Top Scorers'
+		},
+		{
+			endpoint: '/mvp',
+			description: 'Returns Kings League MVPs'
+		}
+	])
+)
 
 // DB endpoints
-app.get("/leaderboard", (ctx) => {
-  return ctx.json(leaderboard);
-});
+app.get('/leaderboard', (ctx) => {
+	return ctx.json(leaderboard)
+})
 
-app.get("/teams", (ctx) => {
-  return ctx.json(teams);
-});
+app.get('/teams', (ctx) => {
+	return ctx.json(teams)
+})
 
-app.get("/teams/:id", (ctx) => {
-  const id = ctx.req.param("id");
-  const foundTeam = teams.find((team) => team.id === id);
+app.get('/teams/:id', (ctx) => {
+	const id = ctx.req.param('id')
+	const foundTeam = teams.find((team) => team.id === id)
 
-  return foundTeam
-    ? ctx.json(foundTeam)
-    : ctx.json({ message: "Team not found" }, 404);
-});
+	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found' }, 404)
+})
 
-app.get("/presidents", (ctx) => {
-  return ctx.json(presidents);
-});
+app.get('/presidents', (ctx) => {
+	return ctx.json(presidents)
+})
 
-app.get("/presidents/:id", (ctx) => {
-  const id = ctx.req.param("id");
-  const president = presidents.find((president) => president.id === id);
+app.get('/presidents/:id', (ctx) => {
+	const id = ctx.req.param('id')
+	const president = presidents.find((president) => president.id === id)
 
-  return president
-    ? ctx.json(president)
-    : ctx.json({ message: "president not found" }, 404);
-});
+	return president ? ctx.json(president) : ctx.json({ message: 'president not found' }, 404)
+})
 
-app.get("/coaches", (ctx) => {
-  return ctx.json(coaches);
-});
+app.get('/coaches', (ctx) => {
+	return ctx.json(coaches)
+})
 
-app.get("/assists", (ctx) => {
-  return ctx.json(assists);
-});
+app.get('/top-assists', (ctx) => {
+	return ctx.json(topAssists)
+})
 
-app.get("/top-scorer", (ctx) => {
-  return ctx.json(topScorer);
-});
+app.get('/top-scorers', (ctx) => {
+	return ctx.json(topScorers)
+})
 
-app.get("/mvp", (ctx) => {
-  return ctx.json(mvp);
-});
+app.get('/mvp', (ctx) => {
+	return ctx.json(mvp)
+})
 
 // This middleware distributes asset files that are put in directory specified root or path option.
-app.get("/static/*", serveStatic({ root: "./" }));
+app.get('/static/*', serveStatic({ root: './' }))
 
 // not found handler for trailins slash
 app.notFound((c) => {
-  const { pathname } = new URL(c.req.url);
+	const { pathname } = new URL(c.req.url)
 
-  // redirect to non-trailing slash url
-  if (c.req.url.at(-1) === "/") {
-    return c.redirect(pathname.slice(0, -1));
-  }
+	// redirect to non-trailing slash url
+	if (c.req.url.at(-1) === '/') {
+		return c.redirect(pathname.slice(0, -1))
+	}
 
-  return c.json({ message: "Not Found" }, 404);
-});
+	return c.json({ message: 'Not Found' }, 404)
+})
 
-export default app;
+export default app
