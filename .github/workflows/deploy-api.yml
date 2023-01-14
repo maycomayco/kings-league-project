@@ -23,4 +23,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: api # lugar donde esta el archivo de la api
-          command: publish --env production
+          # the next command is to use with custom domains
+          # command: publish --env production
