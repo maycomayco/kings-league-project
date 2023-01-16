@@ -16,7 +16,8 @@ Available endpoints
 - GET `/presidents`: Devuelve todos los presidentes de la Kings League.
 - GET `/presidents/:id`: Devuelve un presidente de la Kings League.
 - GET `/coaches`: Devuelve todos los entrenadores de la Kings League.
-- GET `/top-scorer`: Devuelve los goleadores más destacados de la Kings League.
+- GET `/top-scorers`: Devuelve los goleadores más destacados de la Kings League.
+- GET `/top-assists`: Devuelve los asistentes más destacados de la Kings League.
 - GET `/mvp`: Devuelve los MVPs de la Kings League.
 
 ## WEB
