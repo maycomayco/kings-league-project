@@ -1,4 +1,5 @@
 import { writeDBFile } from '../db/index.js'
+import { getShortNameTeams } from './short_name_teams.js'
 import { getURLTeams } from './url_teams.js'
 import { scrapeAndSave, SCRAPINGS } from './utils.js'
 
@@ -27,3 +28,5 @@ Ahí lo añado a que se ejecute luego de que haga el scraping de las paginas ya 
 */
 const teamsWithUrl = await getURLTeams()
 await writeDBFile('teams', teamsWithUrl)
+// Update file of teams.json with short name of each team
+await writeDBFile('teams', getShortNameTeams())
