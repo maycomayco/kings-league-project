@@ -43,7 +43,7 @@ export const getLeaderboard = async (cheerioInput) => {
 
 		const team = getTeamFrom(teamName)
 
-		leaderboard.push({ ...leaderboardForTeam, team })
+		leaderboard.push({ ...leaderboardForTeam, team, rank: idx + 1 })
 	})
 
 	return leaderboard
