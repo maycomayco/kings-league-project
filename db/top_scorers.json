@@ -1,6 +1,6 @@
 [
   {
-    "ranking": 1,
+    "rank": 1,
     "playerName": "A. Bueno",
     "gamesPlayed": 3,
     "goals": 5,
@@ -8,7 +8,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg"
   },
   {
-    "ranking": 2,
+    "rank": 2,
     "playerName": "Pelaz",
     "gamesPlayed": 3,
     "goals": 4,
@@ -16,7 +16,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
-    "ranking": 3,
+    "rank": 3,
     "playerName": "Juanma Glez",
     "gamesPlayed": 3,
     "goals": 4,
@@ -24,7 +24,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "ranking": 4,
+    "rank": 4,
     "playerName": "Ubón",
     "gamesPlayed": 3,
     "goals": 3,
@@ -32,7 +32,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg"
   },
   {
-    "ranking": 5,
+    "rank": 5,
     "playerName": "R. Carbó",
     "gamesPlayed": 3,
     "goals": 3,
@@ -40,7 +40,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "ranking": 6,
+    "rank": 6,
     "playerName": "Jacobo",
     "gamesPlayed": 3,
     "goals": 3,
@@ -48,7 +48,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg"
   },
   {
-    "ranking": 7,
+    "rank": 7,
     "playerName": "E. Álvaro «Roble»",
     "gamesPlayed": 3,
     "goals": 3,
@@ -56,7 +56,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "ranking": 8,
+    "rank": 8,
     "playerName": "S. Sánchez «Drago»",
     "gamesPlayed": 2,
     "goals": 3,
@@ -64,7 +64,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "ranking": 9,
+    "rank": 9,
     "playerName": "J. Verdú «Gingko»",
     "gamesPlayed": 2,
     "goals": 3,
@@ -72,7 +72,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "ranking": 10,
+    "rank": 10,
     "playerName": "Guillem ZZ",
     "gamesPlayed": 3,
     "goals": 3,
@@ -80,7 +80,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
-    "ranking": 11,
+    "rank": 11,
     "playerName": "Arché",
     "gamesPlayed": 3,
     "goals": 3,
@@ -88,7 +88,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "ranking": 12,
+    "rank": 12,
     "playerName": "F. Hernández",
     "gamesPlayed": 2,
     "goals": 2,
@@ -96,7 +96,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc.svg"
   },
   {
-    "ranking": 13,
+    "rank": 13,
     "playerName": "Soriano",
     "gamesPlayed": 3,
     "goals": 2,
@@ -104,7 +104,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg"
   },
   {
-    "ranking": 14,
+    "rank": 14,
     "playerName": "J. Blanco",
     "gamesPlayed": 3,
     "goals": 2,
@@ -112,7 +112,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "ranking": 15,
+    "rank": 15,
     "playerName": "Gio Ferinu",
     "gamesPlayed": 3,
     "goals": 2,
@@ -120,7 +120,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "ranking": 16,
+    "rank": 16,
     "playerName": "Alsina",
     "gamesPlayed": 3,
     "goals": 2,
@@ -128,7 +128,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg"
   },
   {
-    "ranking": 17,
+    "rank": 17,
     "playerName": "C. Castro",
     "gamesPlayed": 3,
     "goals": 2,
@@ -136,7 +136,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-team.svg"
   },
   {
-    "ranking": 18,
+    "rank": 18,
     "playerName": "Torrentbó",
     "gamesPlayed": 3,
     "goals": 2,
@@ -144,7 +144,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg"
   },
   {
-    "ranking": 19,
+    "rank": 19,
     "playerName": "Sorroche",
     "gamesPlayed": 3,
     "goals": 2,
@@ -152,7 +152,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg"
   },
   {
-    "ranking": 20,
+    "rank": 20,
     "playerName": "Rivero",
     "gamesPlayed": 3,
     "goals": 2,
@@ -160,7 +160,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg"
   },
   {
-    "ranking": 21,
+    "rank": 21,
     "playerName": "H. Fraile",
     "gamesPlayed": 2,
     "goals": 2,
@@ -168,7 +168,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "ranking": 22,
+    "rank": 22,
     "playerName": "Lao",
     "gamesPlayed": 3,
     "goals": 1,
@@ -176,7 +176,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "ranking": 23,
+    "rank": 23,
     "playerName": "G. Cichero",
     "gamesPlayed": 3,
     "goals": 1,
@@ -184,7 +184,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "ranking": 24,
+    "rank": 24,
     "playerName": "Kilian",
     "gamesPlayed": 3,
     "goals": 1,
@@ -192,7 +192,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "ranking": 25,
+    "rank": 25,
     "playerName": "Tamudo",
     "gamesPlayed": 1,
     "goals": 1,
@@ -200,7 +200,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "ranking": 26,
+    "rank": 26,
     "playerName": "Campu",
     "gamesPlayed": 3,
     "goals": 1,
@@ -208,7 +208,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "ranking": 27,
+    "rank": 27,
     "playerName": "Temo",
     "gamesPlayed": 3,
     "goals": 1,
@@ -216,7 +216,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "ranking": 28,
+    "rank": 28,
     "playerName": "Feliu",
     "gamesPlayed": 3,
     "goals": 1,
@@ -224,7 +224,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "ranking": 29,
+    "rank": 29,
     "playerName": "Capdevila",
     "gamesPlayed": 2,
     "goals": 1,
@@ -232,7 +232,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
-    "ranking": 30,
+    "rank": 30,
     "playerName": "Bernat",
     "gamesPlayed": 3,
     "goals": 1,
@@ -240,7 +240,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc.svg"
   },
   {
-    "ranking": 31,
+    "rank": 31,
     "playerName": "Gilles V.",
     "gamesPlayed": 3,
     "goals": 1,
@@ -248,7 +248,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc.svg"
   },
   {
-    "ranking": 32,
+    "rank": 32,
     "playerName": "O. Boada",
     "gamesPlayed": 3,
     "goals": 1,
@@ -256,7 +256,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg"
   },
   {
-    "ranking": 33,
+    "rank": 33,
     "playerName": "Maca",
     "gamesPlayed": 3,
     "goals": 1,
@@ -264,7 +264,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg"
   },
   {
-    "ranking": 34,
+    "rank": 34,
     "playerName": "X. Molas «Mimosa»",
     "gamesPlayed": 3,
     "goals": 1,
@@ -272,7 +272,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "ranking": 35,
+    "rank": 35,
     "playerName": "Carlitos",
     "gamesPlayed": 3,
     "goals": 1,
@@ -280,7 +280,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc.svg"
   },
   {
-    "ranking": 36,
+    "rank": 36,
     "playerName": "Cokita",
     "gamesPlayed": 3,
     "goals": 1,
@@ -288,7 +288,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc.svg"
   },
   {
-    "ranking": 37,
+    "rank": 37,
     "playerName": "M. Reyes",
     "gamesPlayed": 3,
     "goals": 1,
@@ -296,7 +296,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
-    "ranking": 38,
+    "rank": 38,
     "playerName": "Alex Race",
     "gamesPlayed": 3,
     "goals": 1,
@@ -304,7 +304,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg"
   },
   {
-    "ranking": 39,
+    "rank": 39,
     "playerName": "Aleix",
     "gamesPlayed": 3,
     "goals": 1,
@@ -312,7 +312,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "ranking": 40,
+    "rank": 40,
     "playerName": "Iker",
     "gamesPlayed": 3,
     "goals": 1,
@@ -320,7 +320,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "ranking": 41,
+    "rank": 41,
     "playerName": "Bañuls",
     "gamesPlayed": 3,
     "goals": 1,
@@ -328,7 +328,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-team.svg"
   },
   {
-    "ranking": 42,
+    "rank": 42,
     "playerName": "Guerrero",
     "gamesPlayed": 3,
     "goals": 1,
@@ -336,7 +336,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg"
   },
   {
-    "ranking": 43,
+    "rank": 43,
     "playerName": "Coro",
     "gamesPlayed": 3,
     "goals": 1,
@@ -344,7 +344,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg"
   },
   {
-    "ranking": 44,
+    "rank": 44,
     "playerName": "Román",
     "gamesPlayed": 3,
     "goals": 1,
@@ -352,7 +352,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg"
   },
   {
-    "ranking": 45,
+    "rank": 45,
     "playerName": "Marino",
     "gamesPlayed": 3,
     "goals": 1,
@@ -360,7 +360,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg"
   },
   {
-    "ranking": 46,
+    "rank": 46,
     "playerName": "Nando",
     "gamesPlayed": 1,
     "goals": 1,
@@ -368,7 +368,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg"
   },
   {
-    "ranking": 47,
+    "rank": 47,
     "playerName": "Espinosa",
     "gamesPlayed": 2,
     "goals": 1,
@@ -376,7 +376,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "ranking": 48,
+    "rank": 48,
     "playerName": "Ibai",
     "gamesPlayed": 1,
     "goals": 1,
@@ -384,7 +384,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg"
   },
   {
-    "ranking": 49,
+    "rank": 49,
     "playerName": "J. Márquez",
     "gamesPlayed": 2,
     "goals": 1,
@@ -392,7 +392,7 @@
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc.svg"
   },
   {
-    "ranking": 50,
+    "rank": 50,
     "playerName": "Salda",
     "gamesPlayed": 1,
     "goals": 1,

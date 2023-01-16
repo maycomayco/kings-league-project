@@ -24,7 +24,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/thegrefg.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 1
   },
   {
     "wins": 3,
@@ -54,7 +55,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/iker-casillas.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 2
   },
   {
     "wins": 2,
@@ -81,7 +83,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/kun-aguero.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 3
   },
   {
     "wins": 2,
@@ -111,7 +114,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/perxitaa.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 4
   },
   {
     "wins": 2,
@@ -138,7 +142,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/djmariio.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 5
   },
   {
     "wins": 2,
@@ -166,7 +171,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/ibai-llanos.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 6
   },
   {
     "wins": 1,
@@ -196,7 +202,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/adri-contreras.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 7
   },
   {
     "wins": 1,
@@ -226,7 +233,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/spursito.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 8
   },
   {
     "wins": 1,
@@ -253,7 +261,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/juan-guarnizo.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 9
   },
   {
     "wins": 1,
@@ -280,7 +289,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/hnos-buyer.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 10
   },
   {
     "wins": 0,
@@ -310,7 +320,8 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/gerard-romero.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 11
   },
   {
     "wins": 0,
@@ -338,6 +349,7 @@
         "image": "https://kings-league.maycobarale.workers.dev/static/presidents/rivers.png",
         "teamId": 0
       }
-    }
+    },
+    "rank": 12
   }
 ]
