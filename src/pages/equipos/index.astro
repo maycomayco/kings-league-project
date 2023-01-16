@@ -1,3 +1,41 @@
-<!-- Página de equipos -->
-<a href="/">Inicio</a>
-<h1>Equipos</h1>
+---
+import Container from '@components/Container.astro'
+import SectionTitle from '@components/SectionTitle.astro'
+import Layout from '@layouts/Layout.astro'
+import { getAllTeams } from 'services/teams'
+const teams = await getAllTeams()
+---
+
+<Layout title='Equipos'>
+	<SectionTitle title='Equipos' />
+	<Container>
+		<div class='z-10 p-20 -mt-10 bg-white shadow-xl'>
+			<section class='grid grid-cols-3 gap-8'>
+				{
+					teams.map((team) => {
+						const { name, image, id } = team
+						return (
+							<article class='col-span-1 overflow-hidden bg-blue-400 rounded aspect-video'>
+								<a
+									class='relative flex items-center justify-center h-full transition-all group hover:scale-110'
+									href={`/team/${id}`}
+									title={`Ver equipo ${name}`}
+								>
+									<img
+										class='brightness-[100] transition-all group-hover:scale-110 group-hover:brightness-200 z-10 w-28 h-28 [backface-visibility:hidden]'
+										src={image}
+										alt={`Logo de ${name}`}
+									/>
+									<h3 class='z-10 text-3xl text-white font-title'>{name}</h3>
+									<div
+										class={`z-0 absolute inset-0 opacity-50 bg-[${image}] bg-center bg-[size:150%] group-hover:bg-[size:200%] transition`}
+									/>
+								</a>
+							</article>
+						)
+					})
+				}
+			</section>
+		</div>
+	</Container>
+</Layout>
