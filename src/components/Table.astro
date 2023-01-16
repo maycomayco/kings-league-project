@@ -5,7 +5,7 @@ const leaderboard = await response.json()
 ---
 
 <div class='relative overflow-x-auto shadow-md sm:rounded-lg'>
-	<table class='text-xxs w-full text-sm text-left text-gray-500'>
+	<table class='text-xs w-full text-left text-black'>
 		<thead class='font-black text-white uppercase bg-black'>
 			<tr>
 				<th scope='col' class='px-6 py-3'>Pos.</th>
@@ -16,31 +16,27 @@ const leaderboard = await response.json()
 		</thead>
 		<tbody>
 			{
-				leaderboard.map((info, idx) => {
-					const { team, wins, losses } = info
-					const { name, image } = team
+				leaderboard.map((info) => {
+					const { team, wins, losses, rank } = info
+					const { name, image, id } = team
 					return (
 						<tr class='bg-white border-b'>
-							<th scope='row' class='px-6 py-4 font-black text-gray-900 whitespace-nowrap'>
+							<th scope='row' class='px-6 py-4 font-black whitespace-nowrap'>
 								{' '}
-								{idx + 1}
+								{rank}
 							</th>
-							<td class='px-6 py-4 font-black flex gap-x-4'>
-								<img src={image} alt={`Logo de ${name}`} class='w-6 h-6' />
-								{name}
+							<td class='px-6 py-4 font-black'>
+								<a href={`/team/${id}`} class='flex gap-x-4 items-center'>
+									<img src={image} alt={`Logo de ${name}`} class='w-6 h-6' />
+									{name}
+								</a>
 							</td>
-							<td class='px-6 py-4'> {wins}</td>
-							<td class='px-6 py-4'> {losses}</td>
+							<td class='px-6 py-4'>{wins}</td>
+							<td class='px-6 py-4'>{losses}</td>
 						</tr>
 					)
 				})
 			}
-			<!-- <tr class='bg-white border-b'>
-				<th scope='row' class='px-6 py-4 font-black text-gray-900 whitespace-nowrap'> 2</th>
-				<td class='px-6 py-4'> Porcinos</td>
-				<td class='px-6 py-4'> 0</td>
-				<td class='px-6 py-4'> 1</td>
-			</tr> -->
 		</tbody>
 	</table>
 </div>
