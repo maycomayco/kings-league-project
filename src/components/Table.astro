@@ -1,0 +1,46 @@
+---
+// @ts-ignore
+const response = await fetch('https://kings-league.maycobarale.workers.dev/leaderboard')
+const leaderboard = await response.json()
+---
+
+<div class='relative overflow-x-auto shadow-md sm:rounded-lg'>
+	<table class='text-xxs w-full text-sm text-left text-gray-500'>
+		<thead class='font-black text-white uppercase bg-black'>
+			<tr>
+				<th scope='col' class='px-6 py-3'>Pos.</th>
+				<th scope='col' class='px-6 py-3'>Equipo</th>
+				<th scope='col' class='px-6 py-3'>V</th>
+				<th scope='col' class='px-6 py-3'>D</th>
+			</tr>
+		</thead>
+		<tbody>
+			{
+				leaderboard.map((info, idx) => {
+					const { team, wins, losses } = info
+					const { name, image } = team
+					return (
+						<tr class='bg-white border-b'>
+							<th scope='row' class='px-6 py-4 font-black text-gray-900 whitespace-nowrap'>
+								{' '}
+								{idx + 1}
+							</th>
+							<td class='px-6 py-4 font-black flex gap-x-4'>
+								<img src={image} alt={`Logo de ${name}`} class='w-6 h-6' />
+								{name}
+							</td>
+							<td class='px-6 py-4'> {wins}</td>
+							<td class='px-6 py-4'> {losses}</td>
+						</tr>
+					)
+				})
+			}
+			<!-- <tr class='bg-white border-b'>
+				<th scope='row' class='px-6 py-4 font-black text-gray-900 whitespace-nowrap'> 2</th>
+				<td class='px-6 py-4'> Porcinos</td>
+				<td class='px-6 py-4'> 0</td>
+				<td class='px-6 py-4'> 1</td>
+			</tr> -->
+		</tbody>
+	</table>
+</div>
