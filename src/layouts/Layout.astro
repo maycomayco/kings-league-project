@@ -1,5 +1,6 @@
 ---
 // esto es lo que envuelve toda nuestra pagina
+import Footer from '@components/Footer.astro'
 import Header from '@components/Header.astro'
 const {
 	title,
@@ -22,6 +23,7 @@ const seoTitle = title ? `${title} | Kings League` : 'Kings League | Futbol de l
 	<body class='min-h-screen'>
 		<Header />
 		<slot />
+		<Footer />
 	</body>
 </html>
 
