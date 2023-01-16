@@ -1,7 +1,17 @@
 ---
+import Container from '@components/Container.astro'
+import Table from '@components/Table.astro'
 import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title='Welcome to Astro.'>
-	<main></main>
+	<main>
+		<section class='bg-[#e66000]'>
+			<Container>
+				<div class='col-span-2 py-10'>
+					<Table />
+				</div>
+			</Container>
+		</section>
+	</main>
 </Layout>
