@@ -11,15 +11,15 @@ export async function getStaticPaths() {
 		props: { ...team }
 	}))
 }
-const { name, image, presidentId, coach, channel, players } = Astro.props
+const { name, image, presidentId, coach, channel, players, imageWhite } = Astro.props
 ---
 
 <Layout title={name}>
-	<Container>
+	<div class='container m-auto my-8 bg-gray-700 text-white p-5'>
 		<section class='flex items-center justify-between'>
 			<div class='flex items-center gap-x-12'>
-				<img src={image} alt={`Escudo del equipo ${name}`} width='130' height='130' />
-				<h1 class='font-bold text-5xl'>{name}</h1>
+				<img src={imageWhite} alt={`Escudo del equipo ${name}`} width='130' height='130' />
+				<h1 class='font-bold text-5xl text-white'>{name}</h1>
 			</div>
 			<a href={channel} class='text-purple-900 font-bold' target='_blank' rel='noopener noreferrer'>
 				Twitch
@@ -34,9 +34,27 @@ const { name, image, presidentId, coach, channel, players } = Astro.props
 			</ul>
 		</section>
 
+		<section class='grid grid-cols-5 gap-2'>
+			{
+				players.map((player) => (
+					<article class='text-center font-title text-slate-900 bg-white rounded-sm p-5 m-auto'>
+						<img
+							class='w-36 h-auto'
+							src={`https://api.kingsleague.dev/static/players/${player.image}`}
+							alt={`${player.name}`}
+						/>
+						<p>{player.name}</p>
+						<p class='text-slate-600 font-body'>{player.role}</p>
+					</article>
+				))
+			}
+		</section>
+
 		<section class='my-2'>Estadísticas</section>
 
 		<a class='text-blue-500 underline' href='/'>Volver</a>
+	</div>
+	<Container>
 		<TeamSelectorCards />
 	</Container>
 </Layout>
