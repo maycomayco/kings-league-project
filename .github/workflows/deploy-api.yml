@@ -8,6 +8,7 @@ on:
 jobs:
   deploy: # it can be any name, is like a label
     name: Deploy API
+    timeout-minutes: 5
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
