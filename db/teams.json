@@ -1,6 +1,7 @@
 [
   {
     "id": "1k",
+    "color": "#6f68f4",
     "name": "1K FC",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/1k-inverse.svg",
@@ -21,6 +22,7 @@
   {
     "id": "el-barrio",
     "name": "El Barrio",
+    "color": "#49b2ad",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio-inverse.svg",
     "url": "https://kingsleague.pro/team/el-barrio/",
@@ -40,6 +42,7 @@
   {
     "id": "ultimate-mostoles",
     "name": "Ultimate Móstoles",
+    "color": "#7b7b7b",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
     "url": "https://kingsleague.pro/team/ultimate-mostoles/",
@@ -54,6 +57,7 @@
   {
     "id": "los-troncos-fc",
     "name": "Los Troncos FC",
+    "color": "#31585a",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos-inverse.svg",
     "url": "https://kingsleague.pro/team/los-troncos-fc/",
@@ -73,6 +77,7 @@
   {
     "id": "saiyans-fc",
     "name": "Saiyans FC",
+    "color": "#1932e0",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc-inverse.svg",
     "url": "https://kingsleague.pro/team/saiyans-fc/",
@@ -87,6 +92,7 @@
   {
     "id": "kunisports",
     "name": "Kunisports",
+    "color": "#101920",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports-inverse.svg",
     "url": "https://kingsleague.pro/team/kunisports/",
@@ -101,6 +107,7 @@
   {
     "id": "jijantes-fc",
     "name": "Jijantes FC",
+    "color": "#d4293d",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc-inverse.svg",
     "url": "https://kingsleague.pro/team/jijantes-fc/",
@@ -120,6 +127,7 @@
   {
     "id": "porcinos-fc",
     "name": "Porcinos FC",
+    "color": "#d91f5d",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc-inverse.svg",
     "url": "https://kingsleague.pro/team/porcinos-fc/",
@@ -134,6 +142,7 @@
   {
     "id": "rayo-barcelona",
     "name": "Rayo de Barcelona",
+    "color": "#f6ab34",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona-inverse.svg",
     "url": "https://kingsleague.pro/team/rayo-barcelona/",
@@ -153,6 +162,7 @@
   {
     "id": "xbuyer-team",
     "name": "XBUYER TEAM",
+    "color": "#979797",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-team.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-team-inverse.svg",
     "url": "https://kingsleague.pro/team/xbuyer-team/",
@@ -167,6 +177,7 @@
   {
     "id": "aniquiladores-fc",
     "name": "Aniquiladores FC",
+    "color": "#ea4163",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc-inverse.svg",
     "url": "https://kingsleague.pro/team/aniquiladores-fc/",
@@ -181,6 +192,7 @@
   {
     "id": "pio-fc",
     "name": "PIO FC",
+    "color": "#fff68d",
     "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc.svg",
     "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc-inverse.svg",
     "url": "https://kingsleague.pro/team/pio-fc/",
