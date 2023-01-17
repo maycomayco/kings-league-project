@@ -48,7 +48,9 @@
     "url": "https://kingsleague.pro/team/ultimate-mostoles/",
     "presidentId": "djmariio",
     "channel": "https://youtube.com/DjMaRiiO",
-    "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
+    "socialNetworks": [
+      "https://m.youtube.com/user/DjMaRiiO/videos"
+    ],
     "players": [],
     "coach": "Nacho Castro",
     "coachInfo": {},
@@ -83,7 +85,9 @@
     "url": "https://kingsleague.pro/team/saiyans-fc/",
     "presidentId": "thegrefg",
     "channel": "https://twitch.tv/thegrefg",
-    "socialNetworks": ["https://www.twitch.tv/thegrefg"],
+    "socialNetworks": [
+      "https://www.twitch.tv/thegrefg"
+    ],
     "players": [],
     "coach": "Daniel Romo",
     "coachInfo": {},
@@ -98,7 +102,9 @@
     "url": "https://kingsleague.pro/team/kunisports/",
     "presidentId": "kun-aguero",
     "channel": "https://twitch.tv/slakun10",
-    "socialNetworks": ["https://www.twitch.tv/slakun10"],
+    "socialNetworks": [
+      "https://www.twitch.tv/slakun10"
+    ],
     "players": [],
     "coach": "Martín Posse",
     "coachInfo": {},
@@ -133,7 +139,10 @@
     "url": "https://kingsleague.pro/team/porcinos-fc/",
     "presidentId": "ibai-llanos",
     "channel": "https://twitch.tv/ibai",
-    "socialNetworks": ["https://www.twitch.tv/ibai", "https://twitter.com/FCPorcinos"],
+    "socialNetworks": [
+      "https://www.twitch.tv/ibai",
+      "https://twitter.com/FCPorcinos"
+    ],
     "players": [],
     "coach": "Juvenal Edjogo",
     "coachInfo": {},
@@ -168,7 +177,9 @@
     "url": "https://kingsleague.pro/team/xbuyer-team/",
     "presidentId": "hnos-buyer",
     "channel": "https://www.youtube.com/xbuyer",
-    "socialNetworks": ["https://www.youtube.com/xbuyer"],
+    "socialNetworks": [
+      "https://www.youtube.com/xbuyer"
+    ],
     "players": [],
     "coach": "Víctor González",
     "coachInfo": {},
@@ -183,7 +194,9 @@
     "url": "https://kingsleague.pro/team/aniquiladores-fc/",
     "presidentId": "juan-guarnizo",
     "channel": "https://twitch.tv/juansguarnizo",
-    "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
+    "socialNetworks": [
+      "https://www.twitch.tv/juansguarnizo"
+    ],
     "players": [],
     "coach": "Sergio Verdirame",
     "coachInfo": {},
@@ -198,7 +211,10 @@
     "url": "https://kingsleague.pro/team/pio-fc/",
     "presidentId": "rivers",
     "channel": "https://twitch.tv/rivers_gg",
-    "socialNetworks": ["https://www.twitch.tv/rivers_gg", "https://twitter.com/PIO_FC"],
+    "socialNetworks": [
+      "https://www.twitch.tv/rivers_gg",
+      "https://twitter.com/PIO_FC"
+    ],
     "players": [],
     "coach": "Gerardo Torrado",
     "coachInfo": {},

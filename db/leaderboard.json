@@ -9,7 +9,9 @@
     "team": {
       "id": "saiyans-fc",
       "name": "Saiyans FC",
+      "color": "#1932e0",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc-inverse.svg",
       "url": "https://kingsleague.pro/team/saiyans-fc/",
       "channel": "https://twitch.tv/thegrefg",
       "socialNetworks": [
@@ -18,6 +20,7 @@
       "players": [],
       "coach": "Daniel Romo",
       "coachInfo": {},
+      "shortName": "SAI",
       "president": {
         "id": "thegrefg",
         "name": "TheGrefg",
@@ -36,8 +39,10 @@
     "redCards": 0,
     "team": {
       "id": "1k",
+      "color": "#6f68f4",
       "name": "1K FC",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/1k-inverse.svg",
       "url": "https://kingsleague.pro/team/1k/",
       "channel": "https://www.twitch.tv/ikerCasillas",
       "socialNetworks": [
@@ -49,6 +54,7 @@
       "players": [],
       "coach": "Julio García Mera",
       "coachInfo": {},
+      "shortName": "1K",
       "president": {
         "id": "iker-casillas",
         "name": "Iker Casillas",
@@ -68,7 +74,9 @@
     "team": {
       "id": "kunisports",
       "name": "Kunisports",
+      "color": "#101920",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports-inverse.svg",
       "url": "https://kingsleague.pro/team/kunisports/",
       "channel": "https://twitch.tv/slakun10",
       "socialNetworks": [
@@ -77,6 +85,7 @@
       "players": [],
       "coach": "Martín Posse",
       "coachInfo": {},
+      "shortName": "KNS",
       "president": {
         "id": "kun-aguero",
         "name": "Kun Agüero",
@@ -96,7 +105,9 @@
     "team": {
       "id": "los-troncos-fc",
       "name": "Los Troncos FC",
+      "color": "#31585a",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos-inverse.svg",
       "url": "https://kingsleague.pro/team/los-troncos-fc/",
       "channel": "https://twitch.tv/perxitaa",
       "socialNetworks": [
@@ -108,6 +119,7 @@
       "players": [],
       "coach": "Pol Font",
       "coachInfo": {},
+      "shortName": "TFC",
       "president": {
         "id": "perxitaa",
         "name": "Perxitaa",
@@ -127,7 +139,9 @@
     "team": {
       "id": "ultimate-mostoles",
       "name": "Ultimate Móstoles",
+      "color": "#7b7b7b",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
       "url": "https://kingsleague.pro/team/ultimate-mostoles/",
       "channel": "https://youtube.com/DjMaRiiO",
       "socialNetworks": [
@@ -136,6 +150,7 @@
       "players": [],
       "coach": "Nacho Castro",
       "coachInfo": {},
+      "shortName": "ULT",
       "president": {
         "id": "djmariio",
         "name": "DjMaRiiO",
@@ -155,7 +170,9 @@
     "team": {
       "id": "porcinos-fc",
       "name": "Porcinos FC",
+      "color": "#d91f5d",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc-inverse.svg",
       "url": "https://kingsleague.pro/team/porcinos-fc/",
       "channel": "https://twitch.tv/ibai",
       "socialNetworks": [
@@ -165,6 +182,7 @@
       "players": [],
       "coach": "Juvenal Edjogo",
       "coachInfo": {},
+      "shortName": "POR",
       "president": {
         "id": "ibai-llanos",
         "name": "Ibai Llanos",
@@ -184,7 +202,9 @@
     "team": {
       "id": "el-barrio",
       "name": "El Barrio",
+      "color": "#49b2ad",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio-inverse.svg",
       "url": "https://kingsleague.pro/team/el-barrio/",
       "channel": "https://twitch.tv/1k",
       "socialNetworks": [
@@ -196,6 +216,7 @@
       "players": [],
       "coach": "Juan Arroita",
       "coachInfo": {},
+      "shortName": "RDB",
       "president": {
         "id": "adri-contreras",
         "name": "Adri Contreras",
@@ -215,7 +236,9 @@
     "team": {
       "id": "rayo-barcelona",
       "name": "Rayo de Barcelona",
+      "color": "#f6ab34",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona-inverse.svg",
       "url": "https://kingsleague.pro/team/rayo-barcelona/",
       "channel": "https://twitch.tv/spursito",
       "socialNetworks": [
@@ -227,6 +250,7 @@
       "players": [],
       "coach": "JuanluDBZ",
       "coachInfo": {},
+      "shortName": "RDB",
       "president": {
         "id": "spursito",
         "name": "Spursito",
@@ -246,7 +270,9 @@
     "team": {
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
+      "color": "#ea4163",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-fc-inverse.svg",
       "url": "https://kingsleague.pro/team/aniquiladores-fc/",
       "channel": "https://twitch.tv/juansguarnizo",
       "socialNetworks": [
@@ -255,6 +281,7 @@
       "players": [],
       "coach": "Sergio Verdirame",
       "coachInfo": {},
+      "shortName": "ANI",
       "president": {
         "id": "juan-guarnizo",
         "name": "Juan Guarnizo",
@@ -274,7 +301,9 @@
     "team": {
       "id": "xbuyer-team",
       "name": "XBUYER TEAM",
+      "color": "#979797",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-team.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-team-inverse.svg",
       "url": "https://kingsleague.pro/team/xbuyer-team/",
       "channel": "https://www.youtube.com/xbuyer",
       "socialNetworks": [
@@ -283,6 +312,7 @@
       "players": [],
       "coach": "Víctor González",
       "coachInfo": {},
+      "shortName": "XBU",
       "president": {
         "id": "hnos-buyer",
         "name": "Hnos. Buyer",
@@ -302,7 +332,9 @@
     "team": {
       "id": "jijantes-fc",
       "name": "Jijantes FC",
+      "color": "#d4293d",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-fc-inverse.svg",
       "url": "https://kingsleague.pro/team/jijantes-fc/",
       "channel": "https://twitch.tv/gerardromero",
       "socialNetworks": [
@@ -314,6 +346,7 @@
       "players": [],
       "coach": "Marc Carmona",
       "coachInfo": {},
+      "shortName": "JFC",
       "president": {
         "id": "gerard-romero",
         "name": "Gerard Romero",
@@ -333,7 +366,9 @@
     "team": {
       "id": "pio-fc",
       "name": "PIO FC",
+      "color": "#fff68d",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/pio-fc-inverse.svg",
       "url": "https://kingsleague.pro/team/pio-fc/",
       "channel": "https://twitch.tv/rivers_gg",
       "socialNetworks": [
@@ -343,6 +378,7 @@
       "players": [],
       "coach": "Gerardo Torrado",
       "coachInfo": {},
+      "shortName": "PIO",
       "president": {
         "id": "rivers",
         "name": "Rivers",
