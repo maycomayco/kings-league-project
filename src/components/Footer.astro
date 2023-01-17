@@ -5,61 +5,64 @@ import tiktok from '../../assets/static/logos/social/tiktok.svg'
 import twitch from '../../assets/static/logos/social/twitch.svg'
 import twitter from '../../assets/static/logos/social/twitter.svg'
 import youtube from '../../assets/static/logos/social/youtube.svg'
+import Container from './Container.astro'
 ---
 
 <footer class='p-8 bg-black'>
-	<section
-		class='flex flex-col lg:flex-row justify-between gap-14 lg:gap-4 text-sm text-lig my-10 text-white'
-	>
-		<img
-			class='block w-52 invert'
-			src={kingsLeagueInfojobs}
-			alt='logo de Kings League y Infojobs'
-		/>
-		<nav class='flex gap-24 mr-36'>
-			<div class='flex flex-col gap-3'>
-				<span>Equipos</span>
-				<span>Jugador 12</span>
-				<span>Calendario</span>
-			</div>
-			<div class='flex flex-col gap-3'>
-				<span>Estadisticas</span>
-				<span>Reglamento</span>
-			</div>
+	<Container>
+		<section
+			class='flex flex-col lg:flex-row justify-between gap-14 lg:gap-4 text-sm text-lig my-10 text-white'
+		>
+			<img
+				class='block w-52 invert'
+				src={kingsLeagueInfojobs}
+				alt='logo de Kings League y Infojobs'
+			/>
+			<nav class='flex gap-24'>
+				<div class='flex flex-col gap-3'>
+					<span>Equipos</span>
+					<span>Jugador 12</span>
+					<span>Calendario</span>
+				</div>
+				<div class='flex flex-col gap-3'>
+					<span>Estadisticas</span>
+					<span>Reglamento</span>
+				</div>
 
-			<div class='flex flex-col gap-3'>
-				<span>Faqs</span>
-				<span>Draft</span>
-			</div>
-		</nav>
-	</section>
+				<div class='flex flex-col gap-3'>
+					<span>Faqs</span>
+					<span>Draft</span>
+				</div>
+			</nav>
+		</section>
 
-	<section
-		class='flex flex-col lg:flex-row justify-between gap-14 lg:gap-4 text-sm text-lig my-10 text-white'
-	>
-		<nav class='flex gap-4 invert align-center'>
-			<a href='#'>
-				<img class='w-6' src={twitch} alt='Twitch logo' />
-			</a>
-			<a href='#'>
-				<img class='w-6' src={twitter} alt='Twitter logo' />
-			</a>
-			<a href='#'>
-				<img class='w-6' src={tiktok} alt='Tiktok logo' />
-			</a>
-			<a href='#'>
-				<img class='w-6' src={instagram} alt='Instagram logo' />
-			</a>
-			<a href='#'>
-				<img class='w-6' src={youtube} alt='Youtube logo' />
-			</a>
-		</nav>
+		<section
+			class='flex flex-col lg:flex-row justify-between gap-14 lg:gap-4 text-sm text-lig my-10 text-white'
+		>
+			<nav class='flex gap-4 invert align-center'>
+				<a href='#'>
+					<img class='w-6' src={twitch} alt='Twitch logo' />
+				</a>
+				<a href='#'>
+					<img class='w-6' src={twitter} alt='Twitter logo' />
+				</a>
+				<a href='#'>
+					<img class='w-6' src={tiktok} alt='Tiktok logo' />
+				</a>
+				<a href='#'>
+					<img class='w-6' src={instagram} alt='Instagram logo' />
+				</a>
+				<a href='#'>
+					<img class='w-6' src={youtube} alt='Youtube logo' />
+				</a>
+			</nav>
 
-		<nav class='flex gap-5 justify-center lg:justify-around'>
-			<span>Contacto</span>
-			<span>Política de Privacidad</span>
-			<span>Aviso Legal</span>
-			<span>Política de Cookies</span>
-		</nav>
-	</section>
+			<nav class='flex gap-5 justify-center lg:justify-around'>
+				<span>Contacto</span>
+				<span>Política de Privacidad</span>
+				<span>Aviso Legal</span>
+				<span>Política de Cookies</span>
+			</nav>
+		</section>
+	</Container>
 </footer>
