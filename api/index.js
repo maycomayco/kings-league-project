@@ -33,7 +33,8 @@ app.get('/', (ctx) =>
 			parameters: [
 				{
 					name: 'id',
-					endpoint: '/teams/:id'
+					endpoint: '/teams/:id',
+					description: 'Return Kings League team by id'
 				}
 			]
 		},
@@ -43,7 +44,8 @@ app.get('/', (ctx) =>
 			parameters: [
 				{
 					name: 'id',
-					endpoint: '/presidents/:id'
+					endpoint: '/presidents/:id',
+					description: 'Return Kings League president by id'
 				}
 			]
 		},
@@ -57,7 +59,8 @@ app.get('/', (ctx) =>
 			parameters: [
 				{
 					name: 'id',
-					endpoint: '/top-assists/:id'
+					endpoint: '/top-assists/:id',
+					description: 'Return Kings League top assister by rank'
 				}
 			]
 		},
@@ -67,7 +70,8 @@ app.get('/', (ctx) =>
 			parameters: [
 				{
 					name: 'id',
-					endpoint: '/top-scorers/:id'
+					endpoint: '/top-scorers/:id',
+					description: 'Return Kings League top scorer by rank'
 				}
 			]
 		},
@@ -92,6 +96,14 @@ app.get('/teams/:id', (ctx) => {
 	const foundTeam = teams.find((team) => team.id === id)
 
 	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found' }, 404)
+})
+
+app.get('/coaches/:teamId', (ctx) => {
+	const teamId = ctx.req.param('teamId')
+	const teamName = teams.find((team) => team.id === teamId)
+	const foundedCoach = coaches.find((coach) => coach.teamName === teamName)
+
+	return foundedCoach ? ctx.json(foundedCoach) : ctx.json({ message: 'Coach not found' }, 404)
 })
 
 app.get('/presidents', (ctx) => {
