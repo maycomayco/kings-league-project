@@ -10,25 +10,26 @@ const teams = await getAllTeams()
 	<SectionTitle title='Equipos' />
 	<Container>
 		<div class='z-10 p-20 -mt-10 bg-white shadow-xl mb-20'>
-			<section class='grid grid-cols-3 gap-8'>
+			<section class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
 				{
 					teams.map((team) => {
-						const { name, image, id } = team
+						const { name, imageWhite, id } = team
 						return (
 							<article class='col-span-1 overflow-hidden bg-blue-400 rounded aspect-video'>
 								<a
-									class='relative flex items-center justify-center h-full transition-all group hover:scale-110'
+									class='relative flex items-center justify-center h-full transition-all group hover:scale-110 gap-x-4 p-4'
 									href={`/team/${id}`}
 									title={`Ver equipo ${name}`}
 								>
 									<img
 										class='brightness-[100] transition-all group-hover:scale-110 group-hover:brightness-200 z-10 w-28 h-28 [backface-visibility:hidden]'
-										src={image}
+										src={imageWhite}
 										alt={`Logo de ${name}`}
 									/>
-									<h3 class='z-10 text-3xl text-white font-title'>{name}</h3>
+									<h3 class='z-10 text-xl xl:text-2xl text-white font-title'>{name}</h3>
 									<div
-										class={`z-0 absolute inset-0 opacity-50 bg-[${image}] bg-center bg-[size:150%] group-hover:bg-[size:200%] transition`}
+										class={`z-0 absolute inset-0 opacity-10 bg-center bg-[size:150%] group-hover:bg-[size:200%] transition`}
+										style={`background-image: url('${imageWhite}')`}
 									/>
 								</a>
 							</article>
