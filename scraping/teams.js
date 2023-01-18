@@ -2,10 +2,10 @@ import path from 'node:path'
 import sharp from 'sharp'
 
 import { TEAMS, writeDBFile } from '../db/index.js'
-import { logInfo, logSuccess } from './log.js'
+import { logInfo, logSuccess } from './logs.js'
 import { cleanText, scrape } from './utils.js'
 
-const STATICS_PATH = path.join(process.cwd(), './public/teams/')
+const STATICS_PATH = path.join(process.cwd(), './assets/static/')
 const BASE_URL = 'https://kingsleague.pro/team'
 const SELECTORS = {
 	name: '.el-title',
