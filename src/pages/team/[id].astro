@@ -2,16 +2,17 @@
 import TeamSelectorCards from '@components/TeamSelectorCards.astro'
 import Layout from '@layouts/Layout.astro'
 import Container from '@components/Container.astro'
+import { getAllTeams } from '../../../services/teams.js'
 
 export async function getStaticPaths() {
-	const response = await fetch('https://kings-league-api.midudev.workers.dev/teams')
-	const teams = await response.json()
+	const teams = await getAllTeams()
+
 	return teams.map((team) => ({
-		params: { teamId: team.id },
+		params: { id: team.id },
 		props: { ...team }
 	}))
 }
-const { name, image, presidentId, coach, channel, players, imageWhite } = Astro.props
+const { name, presidentId, coach, channel, players, imageWhite } = Astro.props
 ---
 
 <Layout title={name}>
