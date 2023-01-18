@@ -62,7 +62,3 @@ If you've found a bug in the Kings League API, we would appreciate it if you cou
 2. If the bug has not been reported, create a new issue and provide a clear and concise description of the problem.
 3. Include any relevant details, such as the version of the API you are using, the platform you are using (e.g. Windows, Mac, Linux), and the steps to reproduce the bug.
 4. If possible, include any error messages or logs that may be relevant to the problem.
-
-## Community 🐾
-
-If you're new to these technologies, don't worry - we have a great community of developers on [Discord](https://discord.gg/midudev/ 'Discord'). who are always happy to help out and answer any questions you might have.
