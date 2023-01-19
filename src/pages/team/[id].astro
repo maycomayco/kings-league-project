@@ -2,7 +2,17 @@
 import TeamSelectorCards from '@components/TeamSelectorCards.astro'
 import Layout from '@layouts/Layout.astro'
 import Container from '@components/Container.astro'
-import { getAllTeams } from '../../../services/teams.js'
+import { getAllTeams } from '@services/teams.js'
+import { findPresidentBy } from '@services/presidents.js'
+
+import instagram from '../../logos/static/logos/social/instagram.svg'
+import tiktok from '../../logos/static/logos/social/tiktok.svg'
+import twitch from '../../logos/static/logos/social/twitch.svg'
+import twitter from '../../logos/static/logos/social/twitter.svg'
+import youtube from '../../logos/static/logos/social/youtube.svg'
+import TeamStats from '@components/TeamStats.astro'
+
+const ICON_NETWORKS = ['instagram', 'tiktok', 'twitch', 'twitter', 'youtube']
 
 export async function getStaticPaths() {
 	const teams = await getAllTeams()
@@ -12,50 +22,107 @@ export async function getStaticPaths() {
 		props: { ...team }
 	}))
 }
-const { name, presidentId, coach, channel, players, imageWhite } = Astro.props
+const { id, name, presidentId, players, imageWhite, color, socialNetworks } = Astro.props
+
+const socialNetworksWithIcon = socialNetworks.map((href) => ({
+	href,
+	icon: ICON_NETWORKS.find((key) => href.includes(key))
+}))
+
+const president = await findPresidentBy({ id: presidentId })
+console.log(president)
 ---
 
 <Layout title={name}>
-	<div class='container m-auto my-8 bg-gray-700 text-white p-5'>
-		<section class='flex items-center justify-between'>
-			<div class='flex items-center gap-x-12'>
-				<img src={imageWhite} alt={`Escudo del equipo ${name}`} width='130' height='130' />
-				<h1 class='font-bold text-5xl text-white'>{name}</h1>
+	<section class='bg-[#cd5500] py-20'>
+		<Container>
+			<div
+				class='relative rounded bg-gradient-to-tr from-gray-600 to-gray-900 shadow-xl -mt-10 z-10 mb-40 p-20'
+				style={`--tw-gradient-from: ${color}`}
+			>
+				<section class='flex items-center justify-between pb-60'>
+					<div class='flex flex-col items-center'>
+						<!-- logo, image and social media -->
+						<div class='flex items-center gap-x-8'>
+							<img class='w-48 h-48' src={imageWhite} alt={`Escudo del equipo ${name}`} />
+							<div class='flex flex-col gap-y-4'>
+								<h1 class='font-title font-bold text-6xl text-white'>{name}</h1>
+								<ul class='flex gap-x-6'>
+									{
+										socialNetworksWithIcon.map(({ href, icon }) => {
+											return (
+												<li>
+													<a
+														class='block transition hover:scale-150'
+														href={href}
+														target='_blank'
+														rel='noopener noreferrer'
+													>
+														<img class='w-8 h-8 invert' src={`/logos/${icon}.svg`} alt={icon} />
+													</a>
+												</li>
+											)
+										})
+									}
+								</ul>
+							</div>
+						</div>
+
+						<!-- president -->
+						<div class='absolute -top-20 right-20 -z-10 text-center'>
+							<img
+								class='block w-65 h-auto aspect-[170/239]'
+								src={president.image}
+								alt={president.name}
+							/>
+							<strong class='text-white text-xl font-title -mt-6 block'>{president.name}</strong>
+						</div>
+						<TeamStats teamId={id} />
+					</div>
+				</section>
+
+				<!-- <section class='z-10'> -->
+				<section>
+					<h2 class='font-title text-white text-5xl text-center py-10'>Jugadores</h2>
+					<div class='grid grid-cols-4 gap-2'>
+						{
+							players.map((player) => (
+								<article class='text-center font-title text-white rounded-sm p-5 m-auto'>
+									<img
+										class='w-56 h-auto aspect-[170/239]'
+										src={`https://kings-league.maycobarale.workers.dev/static/players/${player.image}`}
+										alt={`${player.dorsalName}`}
+									/>
+									<h3 class='font-title text-3xl pt-2'>{player.dorsalName}</h3>
+									<p class='font-body uppercase text-orange-500 font-semibold bg-slate-900/70 rounded-full py-1'>
+										{player.role}
+									</p>
+								</article>
+							))
+						}
+					</div>
+				</section>
+
+				<section class='my-2'>Estadísticas</section>
+
+				<a class='text-blue-500 underline' href='/'>Volver</a>
+
+				<div
+					class='-z-10 absolute inset-0 opacity-10 bg-center bg-[size:80%] transition bg-no-repeat'
+					style={`background-image: url('${imageWhite}')`}
+				>
+				</div>
 			</div>
-			<a href={channel} class='text-purple-900 font-bold' target='_blank' rel='noopener noreferrer'>
-				Twitch
-			</a>
-		</section>
+		</Container>
 
-		<section class='my-2'>
-			<ul>
-				<li><b>Presidente:</b> {presidentId}</li>
-				<li><b>Entrenador:</b> {coach}</li>
-				<li><b>Jugadores:</b> {players.length}</li>
-			</ul>
-		</section>
-
-		<section class='grid grid-cols-5 gap-2'>
-			{
-				players.map((player) => (
-					<article class='text-center font-title text-slate-900 bg-white rounded-sm p-5 m-auto'>
-						<img
-							class='w-36 h-auto'
-							src={`ttps://kings-league.maycobarale.workers.dev/static/players/${player.image}`}
-							alt={`${player.name}`}
-						/>
-						<p>{player.name}</p>
-						<p class='text-slate-600 font-body'>{player.role}</p>
-					</article>
-				))
-			}
-		</section>
-
-		<section class='my-2'>Estadísticas</section>
-
-		<a class='text-blue-500 underline' href='/'>Volver</a>
-	</div>
-	<Container>
-		<TeamSelectorCards />
-	</Container>
+		<Container>
+			<div
+				class='overflow-hidden shadow-xl -mt-10 z-10 mb-40 bg-white p-20 pt-5'
+				style={`--tw-gradient-from: ${color}`}
+			>
+				<h2>Todos los equipos</h2>
+				<TeamSelectorCards />
+			</div>
+		</Container>
+	</section>
 </Layout>
