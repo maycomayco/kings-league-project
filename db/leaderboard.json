@@ -19,11 +19,11 @@
       ],
       "players": [
         {
-          "id": "saiyans-fc-16",
-          "dorsalName": "Alfaya Jr.",
-          "fullName": "Victor Alfaya",
+          "id": "saiyans-fc-Saiyans_8",
+          "dorsalName": "Pol Alme",
+          "fullName": "Pol Almellones",
           "role": "jugador 11",
-          "image": "saiyans-fc-alfaya-jr.webp",
+          "image": "saiyans-fc-pol-alme.webp",
           "stats": {}
         },
         {
@@ -424,7 +424,7 @@
       ],
       "players": [
         {
-          "id": "kunisports-23",
+          "id": "kunisports-Kunisports_23",
           "dorsalName": "Coro",
           "fullName": "Ferran Corominas",
           "role": "jugador 11",
@@ -626,11 +626,11 @@
       ],
       "players": [
         {
-          "id": "los-troncos-fc-21",
-          "dorsalName": "C. Planas «Chopo»",
-          "fullName": "Carles Planas",
+          "id": "los-troncos-fc-Troncos_11b",
+          "dorsalName": "F. Álvarez «Citrus»",
+          "fullName": "Fran Álvarez",
           "role": "jugador 11",
-          "image": "los-troncos-fc-c-planas-chopo.webp",
+          "image": "los-troncos-fc-f-alvarez-citrus.webp",
           "stats": {}
         },
         {
@@ -1025,7 +1025,7 @@
       ],
       "players": [
         {
-          "id": "porcinos-fc-4",
+          "id": "porcinos-fc-8",
           "dorsalName": "Espinosa",
           "fullName": "Javier Espinosa",
           "role": "jugador 11",
@@ -1048,10 +1048,10 @@
         },
         {
           "id": "porcinos-fc-6",
-          "dorsalName": "G.Cichero",
+          "dorsalName": "G. Cichero",
           "fullName": "Gabriel Cichero",
           "role": "Defensa",
-          "image": "porcinos-fc-gcichero.webp",
+          "image": "porcinos-fc-g-cichero.webp",
           "stats": {
             "speed": 73,
             "physique": 49,
@@ -1643,10 +1643,10 @@
         },
         {
           "id": "aniquiladores-fc-25",
-          "dorsalName": "Dani P.",
+          "dorsalName": "Daniel P.",
           "fullName": "Daniel Pérez",
           "role": "Portero",
-          "image": "aniquiladores-fc-dani-p.webp",
+          "image": "aniquiladores-fc-daniel-p.webp",
           "stats": {
             "reflexes": 90,
             "saves": 83,
