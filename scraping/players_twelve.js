@@ -69,7 +69,7 @@ async function saveImageBase64(player) {
 	const { firstName, lastName, team, image } = player
 
 	if (image.includes('placeholder.png')) {
-		return 'https://api.kingsleague.dev/static/players/placeholder.png'
+		return 'https://kings-league.maycobarale.workers.dev/static/players/placeholder.png'
 	}
 
 	let playerImage = null
@@ -91,7 +91,7 @@ async function saveImageBase64(player) {
 
 		await writeFile(`${PLAYER_FOLDER_PATH}/${normalizedImageName}`, imageBase64, 'base64')
 
-		playerImage = `https://api.kingsleague.dev/static/players/${normalizedImageName}`
+		playerImage = `https://kings-league.maycobarale.workers.dev/static/players/${normalizedImageName}`
 	} catch (error) {
 		console.log(error)
 	}
