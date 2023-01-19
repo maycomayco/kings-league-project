@@ -22,6 +22,7 @@ export async function getStaticPaths() {
 		props: { ...team }
 	}))
 }
+
 const { id, name, presidentId, players, imageWhite, color, socialNetworks } = Astro.props
 
 const socialNetworksWithIcon = socialNetworks.map((href) => ({
@@ -30,7 +31,6 @@ const socialNetworksWithIcon = socialNetworks.map((href) => ({
 }))
 
 const president = await findPresidentBy({ id: presidentId })
-console.log(president)
 ---
 
 <Layout title={name}>
