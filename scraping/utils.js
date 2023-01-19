@@ -5,6 +5,7 @@ import { getCoaches } from './coaches.js'
 import { getLeaderboard } from './leaderboard.js'
 import { getMvp } from './mvp.js'
 import { getTopScorerList } from './top_scorers.js'
+import { getPlayersTwelve } from './players_twelve.js'
 import { logError, logInfo, logSuccess } from './logs.js'
 import { writeDBFile } from '../db/index.js'
 
@@ -28,6 +29,10 @@ export const SCRAPINGS = {
 	top_assists: {
 		url: 'https://kingsleague.pro/estadisticas/asistencias/',
 		scraper: getAssists
+	},
+	players_twelve: {
+		url: 'https://kingsleague.pro/jugador-12/',
+		scraper: getPlayersTwelve
 	}
 }
 
