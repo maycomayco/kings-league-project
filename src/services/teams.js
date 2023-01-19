@@ -1,10 +1,23 @@
+import { apiURL } from './config'
+
 export const getAllTeams = async () => {
 	try {
-		const response = await fetch('https://kings-league.maycobarale.workers.dev/teams')
+		const response = await fetch(`${apiURL}/teams`)
 		const teams = await response.json()
 		return teams
 	} catch (error) {
 		// enviar el error a un servicio de monitoreo de errores
+		return []
+	}
+}
+
+export const getPlayersTwelveFor = async ({ teamId }) => {
+	try {
+		const response = await fetch(`${apiURL}/teams/${id}/players-12}`)
+		const players = await response.json()
+		return players
+	} catch (e) {
+		// enviar el error a un servicio de reporte de errores
 		return []
 	}
 }
