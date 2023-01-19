@@ -18,6 +18,7 @@ import mvp from '../db/mvp.json'
 import presidents from '../db/presidents.json'
 import teams from '../db/teams.json'
 import topScorers from '../db/top_scorers.json'
+import playersTwelve from '../db/players_twelve.json'
 
 const app = new Hono()
 
@@ -85,6 +86,10 @@ app.get('/', (ctx) =>
 		{
 			endpoint: '/mvp',
 			description: 'Returns Kings League MVPs'
+		},
+		{
+			endpoint: '/players-12',
+			description: 'Returns Kings League Players Twelve'
 		}
 	])
 )
@@ -110,6 +115,13 @@ app.get('/teams/:id', (ctx) => {
 	const foundTeam = teams.find((team) => team.id === id)
 
 	return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found' }, 404)
+})
+
+app.get('/teams/:id/player-12', (ctx) => {
+	const id = ctx.req.param('id')
+	const foundPlayer = playersTwelve.find((player) => player.team.id === id)
+
+	return foundPlayer ? ctx.json(foundPlayer) : ctx.json({ message: 'Player not found' }, 404)
 })
 
 app.get('/coaches/:teamId', (ctx) => {
@@ -161,6 +173,10 @@ app.get('/top-scorers/:rank', (ctx) => {
 
 app.get('/mvp', (ctx) => {
 	return ctx.json(mvp)
+})
+
+app.get('/players-12', (ctx) => {
+	return ctx.json(playersTwelve)
 })
 
 // This middleware distributes asset files that are put in directory specified root or path option.
