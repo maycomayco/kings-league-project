@@ -1,5 +1,7 @@
 // import { apiURL } from './config.js'
 
+import { apiURL } from './config'
+
 // export const getLeaderboard = async () => {
 // 	try {
 // 		const response = await fetch(`${apiURL}/leaderboard`)
@@ -13,9 +15,7 @@
 
 export const findLeaderboardBy = async ({ teamId }) => {
 	try {
-		const response = await fetch(
-			`https://kings-league.maycobarale.workers.dev/leaderboard/${teamId}`
-		)
+		const response = await fetch(`${apiURL}/leaderboard/${teamId}`)
 		const teamStats = await response.json()
 		return teamStats
 	} catch (e) {
