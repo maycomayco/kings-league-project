@@ -13,8 +13,9 @@ export const getAllTeams = async () => {
 
 export const getPlayersTwelveFor = async ({ teamId }) => {
 	try {
-		const response = await fetch(`${apiURL}/teams/${id}/players-12}`)
+		const response = await fetch(`${apiURL}/teams/${teamId}/players-12`)
 		const players = await response.json()
+		console.log(players)
 		return players
 	} catch (e) {
 		// enviar el error a un servicio de reporte de errores
