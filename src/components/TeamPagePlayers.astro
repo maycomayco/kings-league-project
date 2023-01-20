@@ -1,5 +1,6 @@
 ---
 const { players, title } = Astro.props
+const playerName = (player) => (player.dorsalName ? player.dorsalName : player.name)
 ---
 
 <section>
@@ -9,11 +10,11 @@ const { players, title } = Astro.props
 			players.map((player) => (
 				<article class='text-center font-title text-white rounded-sm p-5 m-auto'>
 					<img
-						class='w-56 h-auto aspect-[170/239]'
+						class='w-56 h-auto m-auto aspect-[170/239]'
 						src={`https://kings-league.maycobarale.workers.dev/static/players/${player.image}`}
-						alt={`${player.dorsalName}`}
+						alt={playerName(player)}
 					/>
-					<h3 class='font-title text-3xl pt-2'>{player.dorsalName}</h3>
+					<h3 class='font-title text-3xl pt-2'>{playerName(player)}</h3>
 					<p class='font-body uppercase text-orange-500 font-semibold bg-slate-900/70 rounded-full py-1'>
 						{player.role}
 					</p>
