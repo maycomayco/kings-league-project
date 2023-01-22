@@ -1,41 +1,67 @@
 [
   {
-    "role": "Delantero",
-    "firstName": "Papi",
-    "lastName": "Gavi",
-    "image": "el-barrio-papi-gavi.png",
-    "name": "Papi Gavi",
+    "role": "Medio",
+    "firstName": "Rubén",
+    "lastName": "de la Red",
+    "image": "ultimate-mostoles-ruben-de-la-red.png",
+    "name": "Rubén de la Red",
     "team": {
-      "id": "el-barrio",
-      "name": "El Barrio",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio-inverse.svg"
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles-inverse.svg"
     }
   },
   {
     "role": "Medio",
-    "firstName": "Víctor",
-    "lastName": "Sánchez",
-    "image": "los-troncos-fc-victor-sanchez.png",
-    "name": "Víctor Sánchez",
+    "firstName": "Goku",
+    "lastName": "Goku",
+    "image": "aniquiladores-fc-goku-goku.png",
+    "name": "Goku Goku",
     "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos-inverse.svg"
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-inverse.svg"
+    }
+  },
+  {
+    "role": "Defensa",
+    "firstName": "Dídac",
+    "lastName": "Vilà",
+    "image": "rayo-barcelona-didac-vila.png",
+    "name": "Dídac Vilà",
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona-inverse.svg"
     }
   },
   {
     "role": "Delantero",
-    "firstName": "Kun",
-    "lastName": "Agüero",
-    "image": "kunisports-kun-aguero.png",
-    "name": "Kun Agüero",
+    "firstName": "Ibai",
+    "lastName": "Gómez",
+    "image": "jijantes-fc-ibai-gomez.png",
+    "name": "Ibai Gómez",
     "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports-inverse.svg"
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Hugo",
+    "lastName": "Fraile",
+    "image": "porcinos-fc-hugo-fraile.png",
+    "name": "Hugo Fraile",
+    "team": {
+      "id": "porcinos-fc",
+      "name": "Porcinos FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc-inverse.svg"
     }
   },
   {
@@ -65,11 +91,24 @@
     }
   },
   {
+    "role": "Medio",
+    "firstName": "Pitu",
+    "lastName": "Comadevall",
+    "image": "jijantes-fc-pitu-comadevall.png",
+    "name": "Pitu Comadevall",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-inverse.svg"
+    }
+  },
+  {
     "role": "Delantero",
-    "firstName": "Jorge",
-    "lastName": "Gómez",
-    "image": "el-barrio-jorge-gomez.png",
-    "name": "Jorge Gómez",
+    "firstName": "Papi",
+    "lastName": "Gavi",
+    "image": "el-barrio-papi-gavi.png",
+    "name": "Papi Gavi",
     "team": {
       "id": "el-barrio",
       "name": "El Barrio",
@@ -78,16 +117,16 @@
     }
   },
   {
-    "role": "Delantero",
-    "firstName": "Borja",
-    "lastName": "Criado",
-    "image": "pio-fc-borja-criado.png",
-    "name": "Borja Criado",
+    "role": "Medio",
+    "firstName": "Joan",
+    "lastName": "Verdú",
+    "image": "los-troncos-fc-joan-verdu.png",
+    "name": "Joan Verdú",
     "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/pio-inverse.svg"
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos-inverse.svg"
     }
   },
   {
@@ -105,36 +144,62 @@
   },
   {
     "role": "Medio",
-    "firstName": "Goku",
-    "lastName": "Goku",
-    "image": "aniquiladores-fc-goku-goku.png",
-    "name": "Goku Goku",
+    "firstName": "Javier",
+    "lastName": "Saviola",
+    "image": "kunisports-javier-saviola.png",
+    "name": "Javier Saviola",
     "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-inverse.svg"
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports-inverse.svg"
     }
   },
   {
     "role": "Delantero",
-    "firstName": "David",
-    "lastName": "Acedo",
-    "image": "aniquiladores-fc-david-acedo.png",
-    "name": "David Acedo",
+    "firstName": "Alberto",
+    "lastName": "Bueno",
+    "image": "1k-alberto-bueno.png",
+    "name": "Alberto Bueno",
     "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-inverse.svg"
+      "id": "1k",
+      "name": "1K FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/1k-inverse.svg"
     }
   },
   {
     "role": "Medio",
-    "firstName": "Javi",
-    "lastName": "Márquez",
-    "image": "pio-fc-javi-marquez.png",
-    "name": "Javi Márquez",
+    "firstName": "Fouad",
+    "lastName": "El Amrani",
+    "image": "xbuyer-team-fouad-el-amrani.png",
+    "name": "Fouad El Amrani",
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-inverse.svg"
+    }
+  },
+  {
+    "role": "Defensa",
+    "firstName": "Joan",
+    "lastName": "Capdevila",
+    "image": "saiyans-fc-joan-capdevila.png",
+    "name": "Joan Capdevila",
+    "team": {
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Borja",
+    "lastName": "Criado",
+    "image": "pio-fc-borja-criado.png",
+    "name": "Borja Criado",
     "team": {
       "id": "pio-fc",
       "name": "PIO FC",
@@ -156,63 +221,11 @@
     }
   },
   {
-    "role": "Medio",
-    "firstName": "Rubén",
-    "lastName": "de la Red",
-    "image": "ultimate-mostoles-ruben-de-la-red.png",
-    "name": "Rubén de la Red",
-    "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles-inverse.svg"
-    }
-  },
-  {
-    "role": "Defensa",
-    "firstName": "Joan",
-    "lastName": "Capdevila",
-    "image": "saiyans-fc-joan-capdevila.png",
-    "name": "Joan Capdevila",
-    "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Fouad",
-    "lastName": "El Amrani",
-    "image": "xbuyer-team-fouad-el-amrani.png",
-    "name": "Fouad El Amrani",
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/xbuyer-inverse.svg"
-    }
-  },
-  {
     "role": "Delantero",
-    "firstName": "Hugo",
-    "lastName": "Fraile",
-    "image": "porcinos-fc-hugo-fraile.png",
-    "name": "Hugo Fraile",
-    "team": {
-      "id": "porcinos-fc",
-      "name": "Porcinos FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc-inverse.svg"
-    }
-  },
-  {
-    "role": "Defensa",
-    "firstName": "Javi",
-    "lastName": "Chica",
-    "image": "kunisports-javi-chica.png",
-    "name": "Javi Chica",
+    "firstName": "Kun",
+    "lastName": "Agüero",
+    "image": "kunisports-kun-aguero.png",
+    "name": "Kun Agüero",
     "team": {
       "id": "kunisports",
       "name": "Kunisports",
@@ -234,29 +247,42 @@
     }
   },
   {
-    "role": "Defensa",
-    "firstName": "Dídac",
-    "lastName": "Vilà",
-    "image": "rayo-barcelona-didac-vila.png",
-    "name": "Dídac Vilà",
+    "role": "Delantero",
+    "firstName": "Jorge",
+    "lastName": "Gómez",
+    "image": "el-barrio-jorge-gomez.png",
+    "name": "Jorge Gómez",
     "team": {
-      "id": "rayo-barcelona",
-      "name": "Rayo de Barcelona",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona-inverse.svg"
+      "id": "el-barrio",
+      "name": "El Barrio",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio-inverse.svg"
     }
   },
   {
     "role": "Medio",
-    "firstName": "Javier",
-    "lastName": "Saviola",
-    "image": "kunisports-javier-saviola.png",
-    "name": "Javier Saviola",
+    "firstName": "Víctor",
+    "lastName": "Sánchez",
+    "image": "los-troncos-fc-victor-sanchez.png",
+    "name": "Víctor Sánchez",
     "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports-inverse.svg"
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Javi",
+    "lastName": "Márquez",
+    "image": "pio-fc-javi-marquez.png",
+    "name": "Javi Márquez",
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/pio.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/pio-inverse.svg"
     }
   },
   {
@@ -273,55 +299,29 @@
     }
   },
   {
-    "role": "Delantero",
-    "firstName": "Ibai",
-    "lastName": "Gómez",
-    "image": "jijantes-fc-ibai-gomez.png",
-    "name": "Ibai Gómez",
+    "role": "Defensa",
+    "firstName": "Javi",
+    "lastName": "Chica",
+    "image": "kunisports-javi-chica.png",
+    "name": "Javi Chica",
     "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Pitu",
-    "lastName": "Comadevall",
-    "image": "jijantes-fc-pitu-comadevall.png",
-    "name": "Pitu Comadevall",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/jijantes-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Joan",
-    "lastName": "Verdú",
-    "image": "los-troncos-fc-joan-verdu.png",
-    "name": "Joan Verdú",
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/los-troncos-inverse.svg"
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports-inverse.svg"
     }
   },
   {
     "role": "Delantero",
-    "firstName": "Alberto",
-    "lastName": "Bueno",
-    "image": "1k-alberto-bueno.png",
-    "name": "Alberto Bueno",
+    "firstName": "David",
+    "lastName": "Acedo",
+    "image": "aniquiladores-fc-david-acedo.png",
+    "name": "David Acedo",
     "team": {
-      "id": "1k",
-      "name": "1K FC",
-      "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
-      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/1k-inverse.svg"
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
+      "imageWhite": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores-inverse.svg"
     }
   }
 ]
