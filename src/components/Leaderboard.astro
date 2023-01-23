@@ -37,12 +37,12 @@ const isSmall = format === 'small'
 		</thead>
 		<tbody>
 			{
-				leaderboard.map((info, idx) => {
+				leaderboard.map((info) => {
 					const { team, wins, losses, rank, scoredGoals, concededGoals, yellowCards, redCards } =
 						info
 					const { name, image, id } = team
 					return (
-						<tr class='even:bg-white odd:bg-slate-100 border-b text-base hover:bg-slate-50'>
+						<tr class='odd:bg-white even:bg-slate-100 border-b text-base hover:bg-slate-50'>
 							<th scope='row' class='text-center px-6 py-4 font-black whitespace-nowrap'>
 								{rank}
 							</th>
