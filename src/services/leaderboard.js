@@ -2,16 +2,16 @@
 
 import { apiURL } from './config'
 
-// export const getLeaderboard = async () => {
-// 	try {
-// 		const response = await fetch(`${apiURL}/leaderboard`)
-// 		const leaderboard = await response.json()
-// 		return leaderboard
-// 	} catch (e) {
-// 		// enviar el error a un servicio de reporte de errores
-// 		return null
-// 	}
-// }
+export const getLeaderboard = async () => {
+	try {
+		const response = await fetch(`${apiURL}/leaderboard`)
+		const leaderboard = await response.json()
+		return leaderboard
+	} catch (e) {
+		// enviar el error a un servicio de reporte de errores
+		return null
+	}
+}
 
 export const findLeaderboardBy = async ({ teamId }) => {
 	try {
