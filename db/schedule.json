@@ -1,10 +1,8 @@
 [
   {
-    "date": "01/01/2023",
+    "date": "Jornada 1 – 01/01/2023",
     "matches": [
       {
-        "timestamp": 1672581600000,
-        "hour": "16:00",
         "teams": [
           {
             "id": "rayo-barcelona",
@@ -20,8 +18,6 @@
         "score": "2 – 4"
       },
       {
-        "timestamp": 1672585200000,
-        "hour": "17:00",
         "teams": [
           {
             "id": "kunisports",
@@ -37,8 +33,6 @@
         "score": "2 – 1"
       },
       {
-        "timestamp": 1672588800000,
-        "hour": "18:00",
         "teams": [
           {
             "id": "el-barrio",
@@ -54,8 +48,6 @@
         "score": "5 – 0"
       },
       {
-        "timestamp": 1672592400000,
-        "hour": "19:00",
         "teams": [
           {
             "id": "los-troncos",
@@ -71,8 +63,6 @@
         "score": "5 – 3"
       },
       {
-        "timestamp": 1672596000000,
-        "hour": "20:00",
         "teams": [
           {
             "id": "aniquiladores",
@@ -88,8 +78,6 @@
         "score": "1 – 5"
       },
       {
-        "timestamp": 1672599600000,
-        "hour": "21:00",
         "teams": [
           {
             "id": "saiyans-fc",
@@ -107,11 +95,9 @@
     ]
   },
   {
-    "date": "08/01/2023",
+    "date": "Jornada 2 – 08/01/2023",
     "matches": [
       {
-        "timestamp": 1673186400000,
-        "hour": "16:00",
         "teams": [
           {
             "id": "jijantes",
@@ -127,8 +113,6 @@
         "score": "3 – 5"
       },
       {
-        "timestamp": 1673190000000,
-        "hour": "17:00",
         "teams": [
           {
             "id": "ultimate-mostoles",
@@ -144,8 +128,6 @@
         "score": "3 – 2"
       },
       {
-        "timestamp": 1673193600000,
-        "hour": "18:00",
         "teams": [
           {
             "id": "1k",
@@ -161,8 +143,6 @@
         "score": "3 – 2"
       },
       {
-        "timestamp": 1673197200000,
-        "hour": "19:00",
         "teams": [
           {
             "id": "porcinos-fc",
@@ -178,8 +158,6 @@
         "score": "5 – 3"
       },
       {
-        "timestamp": 1673200800000,
-        "hour": "20:00",
         "teams": [
           {
             "id": "xbuyer",
@@ -195,8 +173,6 @@
         "score": "0 – 1"
       },
       {
-        "timestamp": 1673204400000,
-        "hour": "21:00",
         "teams": [
           {
             "id": "pio",
@@ -214,11 +190,9 @@
     ]
   },
   {
-    "date": "15/01/2023",
+    "date": "Jornada 3 – 15/01/2023",
     "matches": [
       {
-        "timestamp": 1673791200000,
-        "hour": "16:00",
         "teams": [
           {
             "id": "jijantes",
@@ -234,8 +208,6 @@
         "score": "3 – 5"
       },
       {
-        "timestamp": 1673794800000,
-        "hour": "17:00",
         "teams": [
           {
             "id": "rayo-barcelona",
@@ -251,8 +223,6 @@
         "score": "(0) 2 – 2 (3)"
       },
       {
-        "timestamp": 1673798400000,
-        "hour": "18:00",
         "teams": [
           {
             "id": "saiyans-fc",
@@ -268,8 +238,6 @@
         "score": "5 – 1"
       },
       {
-        "timestamp": 1673802000000,
-        "hour": "19:00",
         "teams": [
           {
             "id": "kunisports",
@@ -285,8 +253,6 @@
         "score": "(2) 2 – 2 (3)"
       },
       {
-        "timestamp": 1673805600000,
-        "hour": "20:00",
         "teams": [
           {
             "id": "los-troncos",
@@ -302,8 +268,6 @@
         "score": "3 – 2"
       },
       {
-        "timestamp": 1673809200000,
-        "hour": "21:00",
         "teams": [
           {
             "id": "el-barrio",
@@ -321,45 +285,9 @@
     ]
   },
   {
-    "date": "22/01/2023",
+    "date": "Jornada 4 – 22/01/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "1k",
-            "name": "1K FC",
-            "shortName": "1K"
-          },
-          {
-            "id": "el-barrio",
-            "name": "El Barrio",
-            "shortName": "ELB"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "aniquiladores",
-            "name": "Aniquiladores FC",
-            "shortName": "ANI"
-          },
-          {
-            "id": "saiyans-fc",
-            "name": "Saiyans FC",
-            "shortName": "SAI"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "xbuyer",
@@ -372,28 +300,9 @@
             "shortName": "JFC"
           }
         ],
-        "score": "0 – 0"
+        "score": "3 – 2"
       },
       {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "porcinos-fc",
-            "name": "Porcinos FC",
-            "shortName": "POR"
-          },
-          {
-            "id": "rayo-barcelona",
-            "name": "Rayo de Barcelona",
-            "shortName": "RDB"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "pio",
@@ -406,11 +315,54 @@
             "shortName": "KNS"
           }
         ],
-        "score": "0 – 0"
+        "score": "(1) 2 – 2 (2)"
       },
       {
-        "timestamp": null,
-        "hour": null,
+        "teams": [
+          {
+            "id": "1k",
+            "name": "1K FC",
+            "shortName": "1K"
+          },
+          {
+            "id": "el-barrio",
+            "name": "El Barrio",
+            "shortName": "ELB"
+          }
+        ],
+        "score": "2 – 5"
+      },
+      {
+        "teams": [
+          {
+            "id": "porcinos-fc",
+            "name": "Porcinos FC",
+            "shortName": "POR"
+          },
+          {
+            "id": "rayo-barcelona",
+            "name": "Rayo de Barcelona",
+            "shortName": "RDB"
+          }
+        ],
+        "score": "5 – 1"
+      },
+      {
+        "teams": [
+          {
+            "id": "aniquiladores",
+            "name": "Aniquiladores FC",
+            "shortName": "ANI"
+          },
+          {
+            "id": "saiyans-fc",
+            "name": "Saiyans FC",
+            "shortName": "SAI"
+          }
+        ],
+        "score": "(3) 1 – 1 (2)"
+      },
+      {
         "teams": [
           {
             "id": "ultimate-mostoles",
@@ -423,16 +375,14 @@
             "shortName": "TFC"
           }
         ],
-        "score": "0 – 0"
+        "score": "5 – 1"
       }
     ]
   },
   {
-    "date": "05/02/2023",
+    "date": "Jornada 5 – 05/02/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "xbuyer",
@@ -448,8 +398,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "kunisports",
@@ -465,8 +413,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "rayo-barcelona",
@@ -482,8 +428,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "saiyans-fc",
@@ -499,8 +443,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "los-troncos",
@@ -516,8 +458,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "jijantes",
@@ -535,11 +475,9 @@
     ]
   },
   {
-    "date": "12/02/2023",
+    "date": "Jornada 6 – 12/02/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "1k",
@@ -555,8 +493,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "aniquiladores",
@@ -572,8 +508,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "el-barrio",
@@ -589,8 +523,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "porcinos-fc",
@@ -606,8 +538,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "pio",
@@ -623,8 +553,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "ultimate-mostoles",
@@ -642,11 +570,9 @@
     ]
   },
   {
-    "date": "19/02/2023",
+    "date": "Jornada 7 – 19/02/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "xbuyer",
@@ -662,8 +588,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "kunisports",
@@ -679,8 +603,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "porcinos-fc",
@@ -696,8 +618,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "rayo-barcelona",
@@ -713,8 +633,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "los-troncos",
@@ -730,8 +648,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "jijantes",
@@ -749,11 +665,9 @@
     ]
   },
   {
-    "date": "26/02/2023",
+    "date": "Jornada 8 – 26/02/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "1k",
@@ -769,42 +683,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "el-barrio",
-            "name": "El Barrio",
-            "shortName": "ELB"
-          },
-          {
-            "id": "rayo-barcelona",
-            "name": "Rayo de Barcelona",
-            "shortName": "RDB"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "saiyans-fc",
-            "name": "Saiyans FC",
-            "shortName": "SAI"
-          },
-          {
-            "id": "kunisports",
-            "name": "Kunisports",
-            "shortName": "KNS"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "aniquiladores",
@@ -820,8 +698,21 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
+        "teams": [
+          {
+            "id": "el-barrio",
+            "name": "El Barrio",
+            "shortName": "ELB"
+          },
+          {
+            "id": "rayo-barcelona",
+            "name": "Rayo de Barcelona",
+            "shortName": "RDB"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
         "teams": [
           {
             "id": "pio",
@@ -837,8 +728,21 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
+        "teams": [
+          {
+            "id": "saiyans-fc",
+            "name": "Saiyans FC",
+            "shortName": "SAI"
+          },
+          {
+            "id": "kunisports",
+            "name": "Kunisports",
+            "shortName": "KNS"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
         "teams": [
           {
             "id": "ultimate-mostoles",
@@ -856,28 +760,9 @@
     ]
   },
   {
-    "date": "05/03/2023",
+    "date": "Jornada 9 – 05/03/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "rayo-barcelona",
-            "name": "Rayo de Barcelona",
-            "shortName": "RDB"
-          },
-          {
-            "id": "saiyans-fc",
-            "name": "Saiyans FC",
-            "shortName": "SAI"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "xbuyer",
@@ -893,8 +778,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "kunisports",
@@ -910,8 +793,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "porcinos-fc",
@@ -927,8 +808,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "pio",
@@ -944,8 +823,21 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
+        "teams": [
+          {
+            "id": "rayo-barcelona",
+            "name": "Rayo de Barcelona",
+            "shortName": "RDB"
+          },
+          {
+            "id": "saiyans-fc",
+            "name": "Saiyans FC",
+            "shortName": "SAI"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
         "teams": [
           {
             "id": "jijantes",
@@ -963,11 +855,9 @@
     ]
   },
   {
-    "date": "12/03/2023",
+    "date": "Jornada 10 – 12/03/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "aniquiladores",
@@ -983,8 +873,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "el-barrio",
@@ -1000,8 +888,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "kunisports",
@@ -1017,8 +903,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "saiyans-fc",
@@ -1034,8 +918,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "ultimate-mostoles",
@@ -1051,8 +933,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "los-troncos",
@@ -1070,11 +950,9 @@
     ]
   },
   {
-    "date": "19/03/2023",
+    "date": "Jornada 11 – 19/03/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "1k",
@@ -1090,8 +968,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "xbuyer",
@@ -1107,8 +983,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "porcinos-fc",
@@ -1124,8 +998,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "pio",
@@ -1141,8 +1013,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "rayo-barcelona",
@@ -1158,8 +1028,6 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
         "teams": [
           {
             "id": "jijantes",
