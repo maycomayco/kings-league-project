@@ -3,6 +3,7 @@ import Leaderboard from '@components/Leaderboard.astro'
 import Layout from '@layouts/Layout.astro'
 import Container from '@components/Container.astro'
 import Sponsors from '@components/Sponsors.astro'
+import PlayerPrizeCard from '@components/PlayerPrizeCard.astro'
 ---
 
 <Layout title='Kings League Infojobs'>
@@ -15,63 +16,16 @@ import Sponsors from '@components/Sponsors.astro'
 					</div>
 					<div class='col-span-2'>
 						<div class='grid grid-cols-6 gap-y-10 gap-x-5 w-full'>
-							<!-- MVP -->
-
-							<div class='col-span-6 bg-white 500 h-80 rounded-'>
-								<!-- Card component here -->
+							<div class='col-span-6'>
+								<PlayerPrizeCard teamId='kunisports' title='MVP' subtitle='Jornada 1' />
 							</div>
-
-							<!-- Goal Scorer -->
-
-							<div class='col-span-3 bg-white 500 h-80 rounded-'>
-								<!-- Card component here -->
+							<div class='col-span-3'>
+								<PlayerPrizeCard teamId='1k' title='2' subtitle='Goles' />
 							</div>
-
-							<!-- Assistant -->
-
-							<div class='col-span-3 bg-white 500 h-80 rounded-'>
-								<!-- Card component here -->
+							<div class='col-span-3'>
+								<PlayerPrizeCard teamId='rayo-barcelona' title='3' subtitle='Asistencias' />
 							</div>
-
 							<!-- Equipos -->
-
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
-							<div class='col-span-2 bg-white 500 h-44 rounded-'>
-								<!-- Card component here -->
-							</div>
 						</div>
 					</div>
 				</div>
