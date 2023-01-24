@@ -20,6 +20,7 @@ import teams from '../db/teams.json'
 import topScorers from '../db/top_scorers.json'
 import playersTwelve from '../db/players_twelve.json'
 import schedule from '../db/schedule.json'
+import topStatistics from '../db/top_statistics.json'
 
 const app = new Hono()
 
@@ -191,8 +192,12 @@ app.get('/players-12', (ctx) => {
 	return ctx.json(playersTwelve)
 })
 
-app.get('/schedule', (ctx) => {
-	return ctx.json(schedule)
+app.get('/top-assists', (ctx) => {
+	return ctx.json(topAssists)
+})
+
+app.get('/top-statistics', (ctx) => {
+	return ctx.json(topStatistics)
 })
 
 // This middleware distributes asset files that are put in directory specified root or path option.
