@@ -10,6 +10,7 @@ import { getSchedule } from './schedule.js'
 import { logError, logInfo, logSuccess } from './logs.js'
 
 import { writeDBFile } from '../db/index.js'
+import { getTopStatistics } from './top_statistics.js'
 
 export const SCRAPINGS = {
 	leaderboard: {
@@ -39,6 +40,9 @@ export const SCRAPINGS = {
 	schedule: {
 		url: 'https://kingsleague.pro/calendario/',
 		scraper: getSchedule
+	},
+	top_statistics: {
+		scraper: getTopStatistics
 	}
 }
 
@@ -64,7 +68,7 @@ export const scrapeAndSave = async (name) => {
 		const { scraper, url } = SCRAPINGS[name]
 
 		logInfo(`Scraping [${name}] list...`)
-		const cheerioResult = await scrape(url)
+		const cheerioResult = url ? await scrape(url) : null
 		// ejecutamos la función scraper por parametro
 		const content = await scraper(cheerioResult)
 		logSuccess(`[${name}] scraped successfully!`)

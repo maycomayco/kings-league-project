@@ -1,0 +1,240 @@
+{
+  "leaderboard": [
+    {
+      "wins": 3,
+      "losses": 1,
+      "scoredGoals": 11,
+      "concededGoals": 5,
+      "yellowCards": 6,
+      "redCards": 1,
+      "rank": 1,
+      "team": {
+        "id": "saiyans-fc",
+        "name": "Saiyans FC",
+        "image": "https://kings-league.maycobarale.workers.dev/static/logos/saiyans-fc.svg",
+        "coach": "Daniel Romo",
+        "shortName": "SAI"
+      }
+    },
+    {
+      "wins": 3,
+      "losses": 1,
+      "scoredGoals": 14,
+      "concededGoals": 9,
+      "yellowCards": 1,
+      "redCards": 0,
+      "rank": 2,
+      "team": {
+        "id": "ultimate-mostoles",
+        "name": "Ultimate Móstoles",
+        "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg",
+        "coach": "Nacho Castro",
+        "shortName": "ULT"
+      }
+    },
+    {
+      "wins": 3,
+      "losses": 1,
+      "scoredGoals": 14,
+      "concededGoals": 10,
+      "yellowCards": 1,
+      "redCards": 0,
+      "rank": 3,
+      "team": {
+        "id": "porcinos-fc",
+        "name": "Porcinos FC",
+        "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg",
+        "coach": "Juvenal Edjogo",
+        "shortName": "POR"
+      }
+    },
+    {
+      "wins": 3,
+      "losses": 1,
+      "scoredGoals": 14,
+      "concededGoals": 12,
+      "yellowCards": 1,
+      "redCards": 0,
+      "rank": 4,
+      "team": {
+        "id": "1k",
+        "name": "1K FC",
+        "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
+        "coach": "Julio García Mera",
+        "shortName": "1K"
+      }
+    },
+    {
+      "wins": 3,
+      "losses": 1,
+      "scoredGoals": 7,
+      "concededGoals": 5,
+      "yellowCards": 6,
+      "redCards": 0,
+      "rank": 5,
+      "team": {
+        "id": "kunisports",
+        "name": "Kunisports",
+        "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
+        "coach": "Martín Posse",
+        "shortName": "KNS"
+      }
+    }
+  ],
+  "mvp": [
+    {
+      "playerName": "F. Hernández",
+      "gamesPlayed": 3,
+      "mvps": 2,
+      "rank": 1,
+      "team": "Aniquiladores FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "aniquiladores-fc"
+    },
+    {
+      "playerName": "Ubón",
+      "gamesPlayed": 4,
+      "mvps": 2,
+      "rank": 2,
+      "team": "El Barrio",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "el-barrio"
+    },
+    {
+      "playerName": "Torrentbó",
+      "gamesPlayed": 4,
+      "mvps": 2,
+      "rank": 3,
+      "team": "Kunisports",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "kunisports"
+    },
+    {
+      "playerName": "Ricardo",
+      "gamesPlayed": 4,
+      "mvps": 1,
+      "rank": 4,
+      "team": "1K FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    },
+    {
+      "playerName": "Sorroche",
+      "gamesPlayed": 4,
+      "mvps": 1,
+      "rank": 5,
+      "team": "1K FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    }
+  ],
+  "topScorers": [
+    {
+      "rank": 1,
+      "playerName": "Juanma Glez",
+      "gamesPlayed": 4,
+      "goals": 6,
+      "team": "Ultimate Móstoles",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "ultimate-mostoles"
+    },
+    {
+      "rank": 2,
+      "playerName": "Pelaz",
+      "gamesPlayed": 4,
+      "goals": 5,
+      "team": "Rayo de Barcelona",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "rayo-barcelona"
+    },
+    {
+      "rank": 3,
+      "playerName": "A. Bueno",
+      "gamesPlayed": 4,
+      "goals": 5,
+      "team": "1K FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    },
+    {
+      "rank": 4,
+      "playerName": "Ubón",
+      "gamesPlayed": 4,
+      "goals": 5,
+      "team": "El Barrio",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "el-barrio"
+    },
+    {
+      "rank": 5,
+      "playerName": "Jacobo",
+      "gamesPlayed": 4,
+      "goals": 4,
+      "team": "El Barrio",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "el-barrio"
+    }
+  ],
+  "topAssists": [
+    {
+      "playerName": "A. Bueno",
+      "gamesPlayed": 4,
+      "assists": 3,
+      "rank": 1,
+      "team": "1K FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    },
+    {
+      "playerName": "Pau ZZ",
+      "gamesPlayed": 4,
+      "assists": 3,
+      "rank": 2,
+      "team": "El Barrio",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "el-barrio"
+    },
+    {
+      "playerName": "H. Fraile",
+      "gamesPlayed": 3,
+      "assists": 3,
+      "rank": 3,
+      "team": "Porcinos FC",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/porcinos-fc.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "porcinos-fc"
+    },
+    {
+      "playerName": "Franky P.",
+      "gamesPlayed": 4,
+      "assists": 2,
+      "rank": 4,
+      "team": "Rayo de Barcelona",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "rayo-barcelona"
+    },
+    {
+      "playerName": "Dani P.",
+      "gamesPlayed": 4,
+      "assists": 2,
+      "rank": 5,
+      "team": "Rayo de Barcelona",
+      "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "rayo-barcelona"
+    }
+  ]
+}
