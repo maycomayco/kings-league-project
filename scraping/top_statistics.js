@@ -42,7 +42,6 @@ function extractMoreData(player) {
 	const { players, id: teamId } = team
 
 	const playerImage = findPlayerImage({ playerName: player.playerName, players })
-	console.log({ playerImage })
 
 	return {
 		...player,
