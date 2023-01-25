@@ -392,7 +392,9 @@
     "url": "https://kingsleague.pro/team/ultimate-mostoles/",
     "presidentId": "djmariio",
     "channel": "https://youtube.com/DjMaRiiO",
-    "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
+    "socialNetworks": [
+      "https://m.youtube.com/user/DjMaRiiO/videos"
+    ],
     "players": [
       {
         "id": "ultimate-mostoles-22",
@@ -763,7 +765,9 @@
     "url": "https://kingsleague.pro/team/saiyans-fc/",
     "presidentId": "thegrefg",
     "channel": "https://twitch.tv/thegrefg",
-    "socialNetworks": ["https://www.twitch.tv/thegrefg"],
+    "socialNetworks": [
+      "https://www.twitch.tv/thegrefg"
+    ],
     "players": [
       {
         "id": "saiyans-fc-Saiyans_8",
@@ -946,7 +950,9 @@
     "url": "https://kingsleague.pro/team/kunisports/",
     "presidentId": "kun-aguero",
     "channel": "https://twitch.tv/slakun10",
-    "socialNetworks": ["https://www.twitch.tv/slakun10"],
+    "socialNetworks": [
+      "https://www.twitch.tv/slakun10"
+    ],
     "players": [
       {
         "id": "kunisports-Kunisports_23",
@@ -1317,7 +1323,10 @@
     "url": "https://kingsleague.pro/team/porcinos-fc/",
     "presidentId": "ibai-llanos",
     "channel": "https://twitch.tv/ibai",
-    "socialNetworks": ["https://www.twitch.tv/ibai", "https://twitter.com/FCPorcinos"],
+    "socialNetworks": [
+      "https://www.twitch.tv/ibai",
+      "https://twitter.com/FCPorcinos"
+    ],
     "players": [
       {
         "id": "porcinos-fc-8",
@@ -1438,20 +1447,12 @@
         }
       },
       {
-        "id": "porcinos-fc-80",
-        "dorsalName": "Lil Pizza",
-        "fullName": "Alvaro Pons",
-        "role": "Defensa",
-        "image": "porcinos-fc-lil-pizza.webp",
-        "stats": {
-          "speed": 55,
-          "physique": 41,
-          "shooting": 61,
-          "passing": 68,
-          "talent": 76,
-          "defense": 68,
-          "score": 62
-        }
+        "id": "porcinos-fc-Porcinos_17",
+        "dorsalName": "Uri Pons",
+        "fullName": "Oriol Pons",
+        "role": "Delantero",
+        "image": "porcinos-fc-uri-pons.webp",
+        "stats": {}
       },
       {
         "id": "porcinos-fc-4",
@@ -1690,7 +1691,9 @@
     "url": "https://kingsleague.pro/team/xbuyer-team/",
     "presidentId": "hnos-buyer",
     "channel": "https://www.youtube.com/xbuyer",
-    "socialNetworks": ["https://www.youtube.com/xbuyer"],
+    "socialNetworks": [
+      "https://www.youtube.com/xbuyer"
+    ],
     "players": [
       {
         "id": "xbuyer-team-10",
@@ -1873,7 +1876,9 @@
     "url": "https://kingsleague.pro/team/aniquiladores-fc/",
     "presidentId": "juan-guarnizo",
     "channel": "https://twitch.tv/juansguarnizo",
-    "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
+    "socialNetworks": [
+      "https://www.twitch.tv/juansguarnizo"
+    ],
     "players": [
       {
         "id": "aniquiladores-fc-14",
@@ -2056,7 +2061,10 @@
     "url": "https://kingsleague.pro/team/pio-fc/",
     "presidentId": "rivers",
     "channel": "https://twitch.tv/rivers_gg",
-    "socialNetworks": ["https://www.twitch.tv/rivers_gg", "https://twitter.com/PIO_FC"],
+    "socialNetworks": [
+      "https://www.twitch.tv/rivers_gg",
+      "https://twitter.com/PIO_FC"
+    ],
     "players": [
       {
         "id": "pio-fc-4",
@@ -2113,20 +2121,12 @@
         }
       },
       {
-        "id": "pio-fc-10",
-        "dorsalName": "Carlinhos",
-        "fullName": "Carlos García",
+        "id": "pio-fc-Pio_9",
+        "dorsalName": "I. Cabello",
+        "fullName": "Ismael Cabello",
         "role": "Delantero",
-        "image": "pio-fc-carlinhos.webp",
-        "stats": {
-          "speed": 71,
-          "physique": 47,
-          "shooting": 69,
-          "passing": 72,
-          "talent": 82,
-          "defense": 68,
-          "score": 68
-        }
+        "image": "pio-fc-i-cabello.webp",
+        "stats": {}
       },
       {
         "id": "pio-fc-21",
