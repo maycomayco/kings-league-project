@@ -1,5 +1,6 @@
 ---
 import { getAllTeams } from '@services/teams.js'
+import CardBackgoundTeam from './CardBackgoundTeam.astro'
 const teams = await getAllTeams()
 ---
 
@@ -21,10 +22,8 @@ const teams = await getAllTeams()
 							alt={`Logo de ${name}`}
 						/>
 						<h3 class='z-10 text-xl xl:text-2xl text-white font-title'>{name}</h3>
-						<div
-							class={`z-0 absolute inset-0 opacity-10 bg-center bg-[size:150%] group-hover:bg-[size:200%] transition`}
-							style={`background-image: url('${imageWhite}')`}
-						/>
+
+						<CardBackgoundTeam image={imageWhite} />
 					</a>
 				</article>
 			)
