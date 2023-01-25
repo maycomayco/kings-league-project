@@ -124,6 +124,7 @@ async function getTeams() {
 					: null
 
 				players.push({
+					// id unico para jugador
 					id: `${teamId}-${dorsal}`,
 					dorsalName,
 					fullName,

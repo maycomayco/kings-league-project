@@ -4,6 +4,10 @@ import Layout from '@layouts/Layout.astro'
 import Container from '@components/Container.astro'
 import Sponsors from '@components/Sponsors.astro'
 import PlayerPrizeCard from '@components/PlayerPrizeCard.astro'
+
+import { getFirstPlayersStatistics } from '@services/statistics'
+
+const { mvp, topScorer, topAssister } = await getFirstPlayersStatistics()
 ---
 
 <Layout title='Kings League Infojobs'>
@@ -17,13 +21,49 @@ import PlayerPrizeCard from '@components/PlayerPrizeCard.astro'
 					<div class='col-span-2'>
 						<div class='grid grid-cols-6 gap-y-10 gap-x-5 w-full'>
 							<div class='col-span-6'>
-								<PlayerPrizeCard teamId='kunisports' title='MVP' subtitle='Jornada 1' />
+								{
+									mvp && (
+										<PlayerPrizeCard
+											teamId={mvp.teamId}
+											playerName={mvp.playerName}
+											teamName={mvp.team}
+											playerImage={mvp.playerImage}
+											teamImage={mvp.image}
+											title='MVP'
+											subtitle='Jornada 1'
+										/>
+									)
+								}
 							</div>
 							<div class='col-span-3'>
-								<PlayerPrizeCard teamId='1k' title='2' subtitle='Goles' />
+								{
+									topScorer && (
+										<PlayerPrizeCard
+											title={topScorer.goals}
+											subtitle='Goles'
+											teamId={topScorer.teamId}
+											playerName={topScorer.playerName}
+											teamName={topScorer.team}
+											playerImage={topScorer.playerImage}
+											teamImage={topScorer.image}
+										/>
+									)
+								}
 							</div>
 							<div class='col-span-3'>
-								<PlayerPrizeCard teamId='rayo-barcelona' title='3' subtitle='Asistencias' />
+								{
+									topAssister && (
+										<PlayerPrizeCard
+											title={topAssister.assists}
+											subtitle='Asistencias'
+											teamId={topScorer.teamId}
+											playerName={topScorer.playerName}
+											teamName={topScorer.team}
+											playerImage={topScorer.playerImage}
+											teamImage={topScorer.image}
+										/>
+									)
+								}
 							</div>
 							<!-- Equipos -->
 						</div>
