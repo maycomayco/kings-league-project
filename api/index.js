@@ -200,6 +200,10 @@ app.get('/top-statistics', (ctx) => {
 	return ctx.json(topStatistics)
 })
 
+app.get('/schedule', (ctx) => {
+	return ctx.json(schedule)
+})
+
 // This middleware distributes asset files that are put in directory specified root or path option.
 app.get('/static/*', serveStatic({ root: './' }))
 
