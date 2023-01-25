@@ -37,11 +37,12 @@ export function getTopStatistics() {
 
 function extractMoreData(player) {
 	const { team: teamName } = player
+	// get team for the player
 	const team = TEAMS.find((team) => team.name === teamName)
-
 	const { players, id: teamId } = team
 
 	const playerImage = findPlayerImage({ playerName: player.playerName, players })
+	console.log({ playerImage })
 
 	return {
 		...player,
@@ -51,7 +52,8 @@ function extractMoreData(player) {
 }
 
 function findPlayerImage({ playerName, players }) {
-	const player = players.find((player) => player.name === playerName)
+	// get images from dorsal name
+	const player = players.find((player) => player.dorsalName === playerName)
 	const playerImage = player?.image ? `${player.image}` : 'placeholder.png'
 
 	// buscar player 12

@@ -89,7 +89,7 @@
       "rank": 1,
       "team": "Aniquiladores FC",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/aniquiladores.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "aniquiladores-fc-f-hernandez.webp",
       "teamId": "aniquiladores-fc"
     },
     {
@@ -99,7 +99,7 @@
       "rank": 2,
       "team": "El Barrio",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "el-barrio-ubn.webp",
       "teamId": "el-barrio"
     },
     {
@@ -109,7 +109,7 @@
       "rank": 3,
       "team": "Kunisports",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/kunisports.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "kunisports-torrentb.webp",
       "teamId": "kunisports"
     },
     {
@@ -119,7 +119,7 @@
       "rank": 4,
       "team": "1K FC",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "1k-ricardo.webp",
       "teamId": "1k"
     },
     {
@@ -129,7 +129,7 @@
       "rank": 5,
       "team": "1K FC",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/1k.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "1k-sorroche.webp",
       "teamId": "1k"
     }
   ],
@@ -141,7 +141,7 @@
       "goals": 6,
       "team": "Ultimate Móstoles",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/ultimate-mostoles.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "ultimate-mostoles-juanma-glez.webp",
       "teamId": "ultimate-mostoles"
     },
     {
@@ -151,7 +151,7 @@
       "goals": 5,
       "team": "Rayo de Barcelona",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "rayo-barcelona-pelaz.webp",
       "teamId": "rayo-barcelona"
     },
     {
@@ -171,7 +171,7 @@
       "goals": 5,
       "team": "El Barrio",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "el-barrio-ubn.webp",
       "teamId": "el-barrio"
     },
     {
@@ -181,7 +181,7 @@
       "goals": 4,
       "team": "El Barrio",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "el-barrio-jacobo.webp",
       "teamId": "el-barrio"
     }
   ],
@@ -203,7 +203,7 @@
       "rank": 2,
       "team": "El Barrio",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/el-barrio.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "el-barrio-pau-zz.webp",
       "teamId": "el-barrio"
     },
     {
@@ -223,7 +223,7 @@
       "rank": 4,
       "team": "Rayo de Barcelona",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "rayo-barcelona-franky-p.webp",
       "teamId": "rayo-barcelona"
     },
     {
@@ -233,7 +233,7 @@
       "rank": 5,
       "team": "Rayo de Barcelona",
       "image": "https://kings-league.maycobarale.workers.dev/static/logos/rayo-barcelona.svg",
-      "playerImage": "placeholder.png",
+      "playerImage": "rayo-barcelona-dani-p.webp",
       "teamId": "rayo-barcelona"
     }
   ]
