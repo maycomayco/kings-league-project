@@ -16,6 +16,16 @@ const PLAYER_SELECTORS = {
 	}
 }
 
+let counter = 1000
+
+const extractIdFromUrl = (url) => url.split('/').at(-1).split('.').at(0)
+
+const generateIdForPlayer = ({ teamId, image }) => {
+	const imageId = extractIdFromUrl(image)
+	const playerId = imageId === 'placeholder' ? counter++ : imageId
+	return `${teamId}-${playerId}`
+}
+
 export async function getPlayersTwelve($) {
 	const $rows = $('div.fs-load-more-item.fs-mw')
 
@@ -48,6 +58,7 @@ export async function getPlayersTwelve($) {
 			lastName,
 			image,
 			name,
+			id: generateIdForPlayer({ teamId: team.id, image }),
 			team: {
 				id: team.id,
 				name: teamName,
