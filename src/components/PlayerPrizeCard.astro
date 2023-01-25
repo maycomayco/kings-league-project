@@ -1,6 +1,10 @@
 ---
+import CardBackgoundTeam from './CardBackgoundTeam.astro'
+
 const { title, subtitle, teamId, playerName, playerImage, teamName, teamImage } = Astro.props
 const gradient = `bg-${teamId}`
+
+const imageWhite = teamImage?.replace('.svg', '-inverse.svg')
 ---
 
 <article class={`relative rounded p-5 ${gradient}`}>
@@ -15,13 +19,10 @@ const gradient = `bg-${teamId}`
 			<p class='text-white opacity-80'>{teamName}</p>
 		</footer>
 	</div>
+	<CardBackgoundTeam image={imageWhite} />
 	<img
-		class='transition-all group-hover:scale-110 group-hover:brightness-200 z-10 w-28 h-28'
-		src={teamImage}
-		alt={`Logo de ${teamName}`}
-		loading='lazy'
-		decoding='async'
-		fetchpriority='low'
+		class='absolute right-0 bottom-0 w-60'
+		src={`https://kings-league.maycobarale.workers.dev/static/players/${playerImage}`}
+		alt={`Imagen de ${playerName}`}
 	/>
-	<img class='absolute right-0 w-36' src={playerImage} alt='' />
 </article>
