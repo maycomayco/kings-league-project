@@ -7,7 +7,8 @@ const SELECTORS = {
 	localsImages: '.fs-table-text_3 img',
 	visitants: '.el-text-7',
 	visitantsImages: '.fs-table-text_5 img',
-	scores: '.fs-table-text_8'
+	scores: '.fs-table-text_8',
+	hour: '.fs-table-text_4'
 }
 
 const MAPS = {
@@ -52,11 +53,14 @@ export async function getSchedule($) {
 		const $visitants = $day.find(SELECTORS.visitants)
 		const $visitantsImages = $day.find(SELECTORS.visitantsImages)
 		const $results = $day.find(SELECTORS.scores)
+		const $hours = $day.find(SELECTORS.hour)
 
 		$results.each((index, result) => {
 			const scoreRaw = $(result).text()
 			const score = cleanText(scoreRaw)
 
+			const hourRaw = $($hours[index]).text()
+			const hour = hourRaw.replace(/\t|\n|\s:/g, '').trim()
 			const localNameRaw = $($locals[index]).text()
 			const localName = cleanText(localNameRaw)
 			const localImg = $($localsImages[index]).attr('src')
@@ -72,6 +76,7 @@ export async function getSchedule($) {
 			const visitantShortName = shortNames[visitantId]
 
 			matches.push({
+				hour: hour === 'vs' ? null : hour,
 				teams: [
 					{ id: localId, name: localName, shortName: localShortName },
 					{ id: visitantId, name: visitantName, shortName: visitantShortName }
