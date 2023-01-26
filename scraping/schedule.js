@@ -45,7 +45,10 @@ export async function getSchedule($) {
 		const $day = $(day)
 
 		const dateRaw = $day.find(SELECTORS.date).text()
-		const date = cleanText(dateRaw)
+		const dateAndLeagueDay = cleanText(dateRaw)
+		const date = dateAndLeagueDay.split('–')[1].trim() // 01/01/2023
+		const [dayNumber, monthNumber, yearNumber] = date.split('/')
+		const prefixDate = `${yearNumber}-${monthNumber}-${dayNumber}`
 
 		const $locals = $day.find(SELECTORS.locals)
 		const $localsImages = $day.find(SELECTORS.localsImages)
@@ -60,6 +63,9 @@ export async function getSchedule($) {
 
 			const hourRaw = $($hours[index]).text()
 			const hour = hourRaw.replace(/\t|\n|\s:/g, '').trim()
+
+			const matchDate = new Date(`${prefixDate} ${hour} GMT+2`)
+
 			const localNameRaw = $($locals[index]).text()
 			const localName = cleanText(localNameRaw)
 			const localImg = $($localsImages[index]).attr('src')
@@ -74,7 +80,10 @@ export async function getSchedule($) {
 			visitantId = MAPS[visitantId] || visitantId
 			const visitantShortName = shortNames[visitantId]
 
+			const timestamp = hour === 'vs' ? null : matchDate.getTime()
+
 			matches.push({
+				timestamp,
 				hour: hour === 'vs' ? null : hour,
 				teams: [
 					{ id: localId, name: localName, shortName: localShortName },
