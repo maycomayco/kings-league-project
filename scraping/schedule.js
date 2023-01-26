@@ -29,8 +29,7 @@ const shortNames = {
 	'ultimate-mostoles': 'ULT',
 	'saiyans-fc': 'SAI',
 	'porcinos-fc': 'POR',
-	'los-troncos': 'TFC',
-	kunisports: 'KNS'
+	'los-troncos': 'TFC'
 }
 
 export async function getSchedule($) {
