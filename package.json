@@ -20,6 +20,7 @@
   "devDependencies": {
     "vitest": "^0.26.3",
     "@vitest/ui": "0.26.3",
+    "astro-critters": "1.1.25",
     "wrangler": "2.6.2",
     "sharp": "0.31.3"
   },
