@@ -6,6 +6,7 @@ import Sponsors from '@components/Sponsors.astro'
 import PlayerPrizeCard from '@components/PlayerPrizeCard.astro'
 
 import { getFirstPlayersStatistics } from '@services/statistics'
+import NextMatchesTable from '@components/NextMatchesTable.astro'
 
 const { mvp, topScorer, topAssister } = await getFirstPlayersStatistics()
 ---
@@ -14,15 +15,16 @@ const { mvp, topScorer, topAssister } = await getFirstPlayersStatistics()
 	<main>
 		<section class='bg-[#cd5500] py-20'>
 			<Container>
-				<div class='grid grid-cols-3 gap-10 w-full px-10'>
-					<div>
+				<div class='grid grid-cols-8 gap-10 w-full px-10'>
+					<div class='col-span-12 lg:col-span-4 xl:col-span-3 flex flex-col gap-4'>
+						<NextMatchesTable />
 						<Leaderboard format='small' />
 					</div>
-					<div class='col-span-2'>
+					<div class='col-span-12 lg:col-span-4 xl:col-span-5'>
 						<div class='grid grid-cols-6 gap-y-10 gap-x-5 w-full'>
-							<div class='col-span-6'>
-								{
-									mvp && (
+							{
+								mvp && (
+									<div class='col-span-6'>
 										<PlayerPrizeCard
 											teamId={mvp.teamId}
 											playerName={mvp.playerName}
@@ -32,9 +34,9 @@ const { mvp, topScorer, topAssister } = await getFirstPlayersStatistics()
 											title='MVP'
 											subtitle='Jornada 1'
 										/>
-									)
-								}
-							</div>
+									</div>
+								)
+							}
 							<div class='col-span-3'>
 								{
 									topScorer && (
