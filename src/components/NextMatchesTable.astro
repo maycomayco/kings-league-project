@@ -3,6 +3,8 @@ import { getLeaderboard } from '@services/leaderboard'
 import { getSchedule } from '@services/schedule'
 import ScheduleRow from './ScheduleRow.astro'
 
+import kingsLeagueLogo from '../../assets/static/logos/kings-league-infojobs-footer.svg'
+
 const schedule = await getSchedule()
 
 const firstDayWithPendingMatches = schedule.find(({ matches }) => {
@@ -16,7 +18,26 @@ const firstDayWithPendingMatches = schedule.find(({ matches }) => {
 	<table class='text-xs w-full text-center text-black'>
 		<thead class='font-black text-white uppercase bg-black'>
 			<tr>
-				<th scope='col' colspan='5' class='px-6 py-3'>ESPECIAL</th>
+				<th
+					scope='col'
+					colspan='5'
+					class='2-full px-6 py-3 text-center flex items-center justify-between'
+				>
+					<img
+						class='brightness-[1000]'
+						src={kingsLeagueLogo}
+						alt='logo de Kings League y Infojobs'
+						loading='lazy'
+						decoding='async'
+						fetchpriority='low'
+						width='208'
+						height='92'
+					/>
+					<div class='flex flex-col text-right'>
+						<h2 class='font-title text-xl'>Jornada 2</h2>
+						<h3 class='opacity-70'>8 de enero de 2023</h3>
+					</div>
+				</th>
 			</tr>
 		</thead>
 		<tbody>
