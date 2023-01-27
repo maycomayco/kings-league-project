@@ -32,7 +32,9 @@ if (timestamp && timestamp <= Date.now()) {
 				<span class='font-title'>{local.shortName}</span>
 			) : (
 				<>
-					<span class='md:hidden'>{local.shortName}</span>
+					<span class='md:hidden' title={local.name}>
+						{local.shortName}
+					</span>
 					<span class='hidden md:block'>{local.name}</span>
 				</>
 			)
@@ -47,7 +49,9 @@ if (timestamp && timestamp <= Date.now()) {
 				<span class='font-title'>{visitant.shortName}</span>
 			) : (
 				<>
-					<span class='md:hidden'>{visitant.shortName}</span>
+					<span class='md:hidden' title={visitant.name}>
+						{visitant.shortName}
+					</span>
 					<span class='hidden md:block'>{visitant.name}</span>
 				</>
 			)
