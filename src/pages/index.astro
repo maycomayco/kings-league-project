@@ -41,6 +41,7 @@ const { mvp, topScorer, topAssister } = await getFirstPlayersStatistics()
 								{
 									topScorer && (
 										<PlayerPrizeCard
+											smallerBox
 											title={topScorer.goals}
 											subtitle='Goles'
 											teamId={topScorer.teamId}
@@ -56,6 +57,7 @@ const { mvp, topScorer, topAssister } = await getFirstPlayersStatistics()
 								{
 									topAssister && (
 										<PlayerPrizeCard
+											smallerBox
 											title={topAssister.assists}
 											subtitle='Asistencias'
 											teamId={topScorer.teamId}
