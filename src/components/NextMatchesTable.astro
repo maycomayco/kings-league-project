@@ -1,14 +1,10 @@
 ---
-import { getLeaderboard } from '@services/leaderboard'
 import { getSchedule } from '@services/schedule'
 import ScheduleRow from './ScheduleRow.astro'
-
-import kingsLeagueLogo from '../../assets/static/logos/kings-league-infojobs-footer.svg'
 
 const schedule = await getSchedule()
 
 const firstDayWithPendingMatches = schedule.find(({ matches }) => {
-	console.log(matches)
 	const found = matches.some(({ timestamp }) => timestamp === null)
 	return found
 })
@@ -25,7 +21,7 @@ const firstDayWithPendingMatches = schedule.find(({ matches }) => {
 				>
 					<img
 						class='brightness-[1000] aspect-[150/61]'
-						src={kingsLeagueLogo}
+						src='/logos/kings-league-infojobs-footer.svg'
 						alt='logo de Kings League y Infojobs'
 						loading='lazy'
 						decoding='async'
