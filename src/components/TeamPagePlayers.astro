@@ -14,10 +14,10 @@ const playerName = (player) => (player.dorsalName ? player.dorsalName : player.n
 						src={`https://kings-league.maycobarale.workers.dev/static/players/${player.image}`}
 						alt={playerName(player)}
 					/>
-					<h3 class='font-title text-3xl pt-2'>{playerName(player)}</h3>
-					<p class='font-body uppercase text-orange-500 font-semibold bg-slate-900/70 rounded-full py-1'>
-						{player.role}
-					</p>
+					<div class='bg-black/70 rounded-xl py-1'>
+						<h3 class='text-white font-title text-3xl pt-2'>{playerName(player)}</h3>
+						<h4 class='font-body uppercase text-orange-500 font-semibold'>{player.role}</h4>
+					</div>
 				</article>
 			))
 		}
