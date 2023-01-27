@@ -46,6 +46,7 @@ export async function getSchedule($) {
 
 		const dateRaw = $day.find(SELECTORS.date).text()
 		const dateAndLeagueDay = cleanText(dateRaw)
+
 		const date = dateAndLeagueDay.split('–')[1].trim() // 01/01/2023
 		const [dayNumber, monthNumber, yearNumber] = date.split('/')
 		const prefixDate = `${yearNumber}-${monthNumber}-${dayNumber}`
@@ -63,7 +64,6 @@ export async function getSchedule($) {
 
 			const hourRaw = $($hours[index]).text()
 			const hour = hourRaw.replace(/\t|\n|\s:/g, '').trim()
-
 			const matchDate = new Date(`${prefixDate} ${hour} GMT+2`)
 
 			const localNameRaw = $($locals[index]).text()
