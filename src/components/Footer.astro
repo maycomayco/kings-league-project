@@ -1,7 +1,8 @@
 ---
 import Container from './Container.astro'
 import SocialNetworks from './SocialNetworks.astro'
-import kingsLeagueInfojobs from '../../assets/static/logos/kings-league-infojobs-footer.svg'
+import kingsLeagueLogo from '../../assets/static/logos/kings-league-infojobs-footer.svg'
+
 const NAV_ENTRIES = [
 	{
 		name: 'Equipos',
@@ -43,8 +44,8 @@ const NAV_ENTRIES = [
 		>
 			<a href='/'>
 				<img
-					class='mx-auto lg:ml-0 aspect-[208/92]'
-					src='/logos/kings-league-logo.svg'
+					class='mx-auto lg:ml-0 aspect-[208/92] brightness-[1000]'
+					src={kingsLeagueLogo}
 					alt='logo de Kings League y Infojobs'
 					loading='lazy'
 					decoding='async'
