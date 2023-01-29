@@ -536,20 +536,12 @@
           }
         },
         {
-          "id": "porcinos-fc-80",
-          "dorsalName": "Lil Pizza",
-          "fullName": "Alvaro Pons",
-          "role": "Defensa",
-          "image": "porcinos-fc-lil-pizza.webp",
-          "stats": {
-            "speed": 55,
-            "physique": 41,
-            "shooting": 61,
-            "passing": 68,
-            "talent": 76,
-            "defense": 68,
-            "score": 62
-          }
+          "id": "porcinos-fc-Porcinos_17",
+          "dorsalName": "Uri Pons",
+          "fullName": "Oriol Pons",
+          "role": "Delantero",
+          "image": "porcinos-fc-uri-pons.webp",
+          "stats": {}
         },
         {
           "id": "porcinos-fc-4",
@@ -2289,20 +2281,12 @@
           }
         },
         {
-          "id": "pio-fc-10",
-          "dorsalName": "Carlinhos",
-          "fullName": "Carlos García",
+          "id": "pio-fc-Pio_9",
+          "dorsalName": "I. Cabello",
+          "fullName": "Ismael Cabello",
           "role": "Delantero",
-          "image": "pio-fc-carlinhos.webp",
-          "stats": {
-            "speed": 71,
-            "physique": 47,
-            "shooting": 69,
-            "passing": 72,
-            "talent": 82,
-            "defense": 68,
-            "score": 68
-          }
+          "image": "pio-fc-i-cabello.webp",
+          "stats": {}
         },
         {
           "id": "pio-fc-21",
