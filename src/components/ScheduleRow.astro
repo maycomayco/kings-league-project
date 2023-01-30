@@ -2,9 +2,9 @@
 const { local, score, visitant, useSmallNames, hour, timestamp } = Astro.props
 
 const scoreStyles = {
-	shared: 'text-lg text-center text-xs font-title rounded-md p-2 px-20 leading-none',
-	played: 'text-lg text-white bg-gray-700 font-title px-20 leading-none',
-	pending: 'text-lg bg-gray-200 transition group-hover:bg-gray-200 font-title px-20 leading-none'
+	shared: 'text-lg text-center text-xs font-title rounded-md p-2 px-10 md:px-20 leading-none',
+	played: 'text-white bg-gray-700',
+	pending: 'bg-gray-200 transition group-hover:bg-gray-200'
 }
 
 let text = 'vs'
@@ -27,35 +27,39 @@ if (timestamp && timestamp <= Date.now()) {
 			src={`https://kings-league.maycobarale.workers.dev/static/logos/${local.id}.svg`}
 			alt={`Escudo del equipo ${local.name}`}
 		/>
-		{
-			useSmallNames ? (
-				<span class='font-title'>{local.shortName}</span>
-			) : (
-				<>
-					<span class='md:hidden' title={local.name}>
-						{local.shortName}
-					</span>
-					<span class='hidden md:block'>{local.name}</span>
-				</>
-			)
-		}
+		<a title={local.name} href={`/team/${local.id}`}>
+			{
+				useSmallNames ? (
+					<span class='font-title'>{local.shortName}</span>
+				) : (
+					<>
+						<span class='md:hidden' title={local.name}>
+							{local.shortName}
+						</span>
+						<span class='hidden md:block'>{local.name}</span>
+					</>
+				)
+			}
+		</a>
 	</td>
 	<td class='px-6 py-4 border-b-1 text-center flex justify-center w-full items-center'>
 		<p class={`${scoreStyles.shared} ${scoreStyles[state]}`}>{text}</p>
 	</td>
 	<td class='px-2 py-4 border-b-1 flex justify-end items-center w-full'>
-		{
-			useSmallNames ? (
-				<span class='font-title'>{visitant.shortName}</span>
-			) : (
-				<>
-					<span class='md:hidden' title={visitant.name}>
-						{visitant.shortName}
-					</span>
-					<span class='hidden md:block'>{visitant.name}</span>
-				</>
-			)
-		}
+		<a title={visitant.name} href={`/team/${visitant.id}`}>
+			{
+				useSmallNames ? (
+					<span class='font-title'>{visitant.shortName}</span>
+				) : (
+					<>
+						<span class='md:hidden' title={visitant.name}>
+							{visitant.shortName}
+						</span>
+						<span class='hidden md:block'>{visitant.name}</span>
+					</>
+				)
+			}
+		</a>
 		<img
 			class='w-12 h-12 mx-2'
 			src={`https://kings-league.maycobarale.workers.dev/static/logos/${visitant.id}.svg`}
