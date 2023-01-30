@@ -39,6 +39,7 @@ async function getTeams() {
 		const imageFileNameClean = removeCharacters(fileName)
 		const imageFileName = `${imageFileNameClean}.webp`
 		const imageFilePath = path.join(STATICS_PATH, folder, imageFileName)
+		// convert image on fly to webp and save it
 		await sharp(buffer).webp().toFile(imageFilePath)
 
 		logInfo(`Everything is done! ${fileName}`)
