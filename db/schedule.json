@@ -158,7 +158,7 @@
             "shortName": "ANI"
           }
         ],
-        "score": "3 – 2"
+        "score": "3- 2"
       },
       {
         "timestamp": 1673197200000,
@@ -530,7 +530,7 @@
             "shortName": "ANI"
           }
         ],
-        "score": "0 – 0"
+        "score": "5 – 7"
       }
     ]
   },
@@ -538,76 +538,8 @@
     "date": "12/02/2023",
     "matches": [
       {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "1k",
-            "name": "1K FC",
-            "shortName": "1K"
-          },
-          {
-            "id": "saiyans-fc",
-            "name": "Saiyans FC",
-            "shortName": "SAI"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "aniquiladores",
-            "name": "Aniquiladores FC",
-            "shortName": "ANI"
-          },
-          {
-            "id": "kunisports",
-            "name": "Kunisports",
-            "shortName": "KNS"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "el-barrio",
-            "name": "El Barrio",
-            "shortName": "ELB"
-          },
-          {
-            "id": "los-troncos",
-            "name": "Los Troncos FC",
-            "shortName": "TFC"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
-        "teams": [
-          {
-            "id": "porcinos-fc",
-            "name": "Porcinos FC",
-            "shortName": "POR"
-          },
-          {
-            "id": "xbuyer",
-            "name": "XBUYER TEAM",
-            "shortName": "XBU"
-          }
-        ],
-        "score": "0 – 0"
-      },
-      {
-        "timestamp": null,
-        "hour": null,
+        "timestamp": 1676210400000,
+        "hour": "16:00",
         "teams": [
           {
             "id": "pio",
@@ -623,8 +555,25 @@
         "score": "0 – 0"
       },
       {
-        "timestamp": null,
-        "hour": null,
+        "timestamp": 1676214000000,
+        "hour": "17:00",
+        "teams": [
+          {
+            "id": "el-barrio",
+            "name": "El Barrio",
+            "shortName": "ELB"
+          },
+          {
+            "id": "los-troncos",
+            "name": "Los Troncos FC",
+            "shortName": "TFC"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "timestamp": 1676217600000,
+        "hour": "18:00",
         "teams": [
           {
             "id": "ultimate-mostoles",
@@ -635,6 +584,57 @@
             "id": "rayo-barcelona",
             "name": "Rayo de Barcelona",
             "shortName": "RDB"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "timestamp": 1676221200000,
+        "hour": "19:00",
+        "teams": [
+          {
+            "id": "aniquiladores",
+            "name": "Aniquiladores FC",
+            "shortName": "ANI"
+          },
+          {
+            "id": "kunisports",
+            "name": "Kunisports",
+            "shortName": "KNS"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "timestamp": 1676224800000,
+        "hour": "20:00",
+        "teams": [
+          {
+            "id": "porcinos-fc",
+            "name": "Porcinos FC",
+            "shortName": "POR"
+          },
+          {
+            "id": "xbuyer",
+            "name": "XBUYER TEAM",
+            "shortName": "XBU"
+          }
+        ],
+        "score": "0 – 0"
+      },
+      {
+        "timestamp": 1676228400000,
+        "hour": "21:00",
+        "teams": [
+          {
+            "id": "1k",
+            "name": "1K FC",
+            "shortName": "1K"
+          },
+          {
+            "id": "saiyans-fc",
+            "name": "Saiyans FC",
+            "shortName": "SAI"
           }
         ],
         "score": "0 – 0"
