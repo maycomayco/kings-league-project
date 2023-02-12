@@ -1,9 +1,9 @@
 [
   {
-    "wins": 4,
+    "wins": 5,
     "losses": 1,
-    "scoredGoals": 12,
-    "concededGoals": 5,
+    "scoredGoals": 14,
+    "concededGoals": 7,
     "yellowCards": 6,
     "redCards": 1,
     "team": {
@@ -199,10 +199,10 @@
     "rank": 1
   },
   {
-    "wins": 4,
+    "wins": 0,
     "losses": 1,
-    "scoredGoals": 18,
-    "concededGoals": 12,
+    "scoredGoals": 22,
+    "concededGoals": 15,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -393,8 +393,8 @@
   {
     "wins": 4,
     "losses": 1,
-    "scoredGoals": 10,
-    "concededGoals": 6,
+    "scoredGoals": 13,
+    "concededGoals": 8,
     "yellowCards": 6,
     "redCards": 0,
     "team": {
@@ -590,10 +590,212 @@
     "rank": 3
   },
   {
-    "wins": 3,
-    "losses": 2,
+    "wins": 1,
+    "losses": 3,
     "scoredGoals": 15,
-    "concededGoals": 12,
+    "concededGoals": 25,
+    "yellowCards": 2,
+    "redCards": 1,
+    "team": {
+      "color": "#31585a",
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "/teams/logos/los-troncos.svg",
+      "imageWhite": "/teams/logos/los-troncos-inverse.svg",
+      "url": "https://kingsleague.pro/team/los-troncos-fc/",
+      "channel": "https://twitch.tv/perxitaa",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [
+        {
+          "id": "los-troncos-fc-Troncos_11b",
+          "dorsalName": "F. Álvarez «Citrus»",
+          "fullName": "Fran Álvarez",
+          "role": "jugador 11",
+          "image": "los-troncos-fc-f-alvarez-citrus.webp",
+          "stats": {}
+        },
+        {
+          "id": "los-troncos-fc-9",
+          "dorsalName": "E. Álvaro «Roble»",
+          "fullName": "Edgar Álvaro",
+          "role": "Delantero",
+          "image": "los-troncos-fc-e-alvaro-roble.webp",
+          "stats": {
+            "speed": 73,
+            "physique": 82,
+            "shooting": 81,
+            "passing": 55,
+            "talent": 85,
+            "defense": 70,
+            "score": 74
+          }
+        },
+        {
+          "id": "los-troncos-fc-13",
+          "dorsalName": "Lechuga",
+          "fullName": "Pol Lechuga",
+          "role": "Portero",
+          "image": "los-troncos-fc-lechuga.webp",
+          "stats": {
+            "reflexes": 81,
+            "saves": 84,
+            "kickoff": 70,
+            "stretch": 60,
+            "score": 74
+          }
+        },
+        {
+          "id": "los-troncos-fc-4",
+          "dorsalName": "D. Soriano «Olivo»",
+          "fullName": "David Soriano",
+          "role": "Defensa",
+          "image": "los-troncos-fc-d-soriano-olivo.webp",
+          "stats": {
+            "speed": 71,
+            "physique": 70,
+            "shooting": 80,
+            "passing": 78,
+            "talent": 56,
+            "defense": 57,
+            "score": 69
+          }
+        },
+        {
+          "id": "los-troncos-fc-8",
+          "dorsalName": "S. Sánchez «Drago»",
+          "fullName": "Sergio Sánchez",
+          "role": "Medio",
+          "image": "los-troncos-fc-s-sanchez-drago.webp",
+          "stats": {
+            "speed": 65,
+            "physique": 43,
+            "shooting": 75,
+            "passing": 79,
+            "talent": 82,
+            "defense": 84,
+            "score": 71
+          }
+        },
+        {
+          "id": "los-troncos-fc-5",
+          "dorsalName": "Noel L. «Ahuehuete»",
+          "fullName": "Noel López",
+          "role": "Medio",
+          "image": "los-troncos-fc-noel-l-ahuehuete.webp",
+          "stats": {
+            "speed": 73,
+            "physique": 68,
+            "shooting": 79,
+            "passing": 70,
+            "talent": 89,
+            "defense": 67,
+            "score": 74
+          }
+        },
+        {
+          "id": "los-troncos-fc-10",
+          "dorsalName": "X. Molas «Mimosa»",
+          "fullName": "Xavier Molas",
+          "role": "Medio",
+          "image": "los-troncos-fc-x-molas-mimosa.webp",
+          "stats": {
+            "speed": 73,
+            "physique": 72,
+            "shooting": 76,
+            "passing": 84,
+            "talent": 81,
+            "defense": 78,
+            "score": 77
+          }
+        },
+        {
+          "id": "los-troncos-fc-7",
+          "dorsalName": "R. Martínez «Bonsai»",
+          "fullName": "Raúl Martínez",
+          "role": "Delantero",
+          "image": "los-troncos-fc-r-martinez-bonsai.webp",
+          "stats": {
+            "speed": 73,
+            "physique": 50,
+            "shooting": 70,
+            "passing": 76,
+            "talent": 84,
+            "defense": 73,
+            "score": 71
+          }
+        },
+        {
+          "id": "los-troncos-fc-11",
+          "dorsalName": "Dorkis P. «Mango»",
+          "fullName": "Dorkis Pérez",
+          "role": "Delantero",
+          "image": "los-troncos-fc-dorkis-p-mango.webp",
+          "stats": {
+            "speed": 72,
+            "physique": 54,
+            "shooting": 78,
+            "passing": 54,
+            "talent": 71,
+            "defense": 72,
+            "score": 67
+          }
+        },
+        {
+          "id": "los-troncos-fc-6",
+          "dorsalName": "I. Nuevo «Ficus»",
+          "fullName": "Iván Nuevo",
+          "role": "Medio",
+          "image": "los-troncos-fc-i-nuevo-ficus.webp",
+          "stats": {
+            "speed": 70,
+            "physique": 63,
+            "shooting": 80,
+            "passing": 61,
+            "talent": 83,
+            "defense": 73,
+            "score": 72
+          }
+        },
+        {
+          "id": "los-troncos-fc-1",
+          "dorsalName": "M. Arús «Pino»",
+          "fullName": "Marc Arús",
+          "role": "Portero",
+          "image": "los-troncos-fc-m-arus-pino.webp",
+          "stats": {
+            "reflexes": 62,
+            "saves": 70,
+            "kickoff": 60,
+            "stretch": 73,
+            "score": 66
+          }
+        }
+      ],
+      "coach": "Pol Font",
+      "shortName": "TFC",
+      "coachInfo": {
+        "name": "Pol Font",
+        "image": "pol-font.webp"
+      },
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "/presidents/perxitaa.png",
+        "teamId": 0
+      }
+    },
+    "rank": 4
+  },
+  {
+    "wins": 0,
+    "losses": 2,
+    "scoredGoals": 18,
+    "concededGoals": 14,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -786,13 +988,13 @@
         "teamId": 0
       }
     },
-    "rank": 4
+    "rank": 5
   },
   {
     "wins": 3,
-    "losses": 2,
-    "scoredGoals": 16,
-    "concededGoals": 15,
+    "losses": 3,
+    "scoredGoals": 18,
+    "concededGoals": 17,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -992,12 +1194,12 @@
         "teamId": 0
       }
     },
-    "rank": 5
+    "rank": 6
   },
   {
     "wins": 3,
-    "losses": 2,
-    "scoredGoals": 15,
+    "losses": 3,
+    "scoredGoals": 14,
     "concededGoals": 15,
     "yellowCards": 1,
     "redCards": 0,
@@ -1191,13 +1393,13 @@
         "teamId": 0
       }
     },
-    "rank": 6
+    "rank": 7
   },
   {
     "wins": 3,
-    "losses": 2,
-    "scoredGoals": 11,
-    "concededGoals": 12,
+    "losses": 3,
+    "scoredGoals": 14,
+    "concededGoals": 16,
     "yellowCards": 3,
     "redCards": 0,
     "team": {
@@ -1390,13 +1592,13 @@
         "teamId": 0
       }
     },
-    "rank": 7
+    "rank": 8
   },
   {
     "wins": 2,
-    "losses": 3,
-    "scoredGoals": 13,
-    "concededGoals": 10,
+    "losses": 4,
+    "scoredGoals": 16,
+    "concededGoals": 13,
     "yellowCards": 2,
     "redCards": 0,
     "team": {
@@ -1596,13 +1798,13 @@
         "teamId": 0
       }
     },
-    "rank": 8
+    "rank": 9
   },
   {
     "wins": 2,
-    "losses": 3,
+    "losses": -2,
     "scoredGoals": 15,
-    "concededGoals": 18,
+    "concededGoals": 21,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -1800,214 +2002,12 @@
         "teamId": 0
       }
     },
-    "rank": 9
-  },
-  {
-    "wins": 2,
-    "losses": 3,
-    "scoredGoals": 17,
-    "concededGoals": 22,
-    "yellowCards": 2,
-    "redCards": 1,
-    "team": {
-      "color": "#31585a",
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "/teams/logos/los-troncos.svg",
-      "imageWhite": "/teams/logos/los-troncos-inverse.svg",
-      "url": "https://kingsleague.pro/team/los-troncos-fc/",
-      "channel": "https://twitch.tv/perxitaa",
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [
-        {
-          "id": "los-troncos-fc-Troncos_11b",
-          "dorsalName": "F. Álvarez «Citrus»",
-          "fullName": "Fran Álvarez",
-          "role": "jugador 11",
-          "image": "los-troncos-fc-f-alvarez-citrus.webp",
-          "stats": {}
-        },
-        {
-          "id": "los-troncos-fc-9",
-          "dorsalName": "E. Álvaro «Roble»",
-          "fullName": "Edgar Álvaro",
-          "role": "Delantero",
-          "image": "los-troncos-fc-e-alvaro-roble.webp",
-          "stats": {
-            "speed": 73,
-            "physique": 82,
-            "shooting": 81,
-            "passing": 55,
-            "talent": 85,
-            "defense": 70,
-            "score": 74
-          }
-        },
-        {
-          "id": "los-troncos-fc-13",
-          "dorsalName": "Lechuga",
-          "fullName": "Pol Lechuga",
-          "role": "Portero",
-          "image": "los-troncos-fc-lechuga.webp",
-          "stats": {
-            "reflexes": 81,
-            "saves": 84,
-            "kickoff": 70,
-            "stretch": 60,
-            "score": 74
-          }
-        },
-        {
-          "id": "los-troncos-fc-4",
-          "dorsalName": "D. Soriano «Olivo»",
-          "fullName": "David Soriano",
-          "role": "Defensa",
-          "image": "los-troncos-fc-d-soriano-olivo.webp",
-          "stats": {
-            "speed": 71,
-            "physique": 70,
-            "shooting": 80,
-            "passing": 78,
-            "talent": 56,
-            "defense": 57,
-            "score": 69
-          }
-        },
-        {
-          "id": "los-troncos-fc-8",
-          "dorsalName": "S. Sánchez «Drago»",
-          "fullName": "Sergio Sánchez",
-          "role": "Medio",
-          "image": "los-troncos-fc-s-sanchez-drago.webp",
-          "stats": {
-            "speed": 65,
-            "physique": 43,
-            "shooting": 75,
-            "passing": 79,
-            "talent": 82,
-            "defense": 84,
-            "score": 71
-          }
-        },
-        {
-          "id": "los-troncos-fc-5",
-          "dorsalName": "Noel L. «Ahuehuete»",
-          "fullName": "Noel López",
-          "role": "Medio",
-          "image": "los-troncos-fc-noel-l-ahuehuete.webp",
-          "stats": {
-            "speed": 73,
-            "physique": 68,
-            "shooting": 79,
-            "passing": 70,
-            "talent": 89,
-            "defense": 67,
-            "score": 74
-          }
-        },
-        {
-          "id": "los-troncos-fc-10",
-          "dorsalName": "X. Molas «Mimosa»",
-          "fullName": "Xavier Molas",
-          "role": "Medio",
-          "image": "los-troncos-fc-x-molas-mimosa.webp",
-          "stats": {
-            "speed": 73,
-            "physique": 72,
-            "shooting": 76,
-            "passing": 84,
-            "talent": 81,
-            "defense": 78,
-            "score": 77
-          }
-        },
-        {
-          "id": "los-troncos-fc-7",
-          "dorsalName": "R. Martínez «Bonsai»",
-          "fullName": "Raúl Martínez",
-          "role": "Delantero",
-          "image": "los-troncos-fc-r-martinez-bonsai.webp",
-          "stats": {
-            "speed": 73,
-            "physique": 50,
-            "shooting": 70,
-            "passing": 76,
-            "talent": 84,
-            "defense": 73,
-            "score": 71
-          }
-        },
-        {
-          "id": "los-troncos-fc-11",
-          "dorsalName": "Dorkis P. «Mango»",
-          "fullName": "Dorkis Pérez",
-          "role": "Delantero",
-          "image": "los-troncos-fc-dorkis-p-mango.webp",
-          "stats": {
-            "speed": 72,
-            "physique": 54,
-            "shooting": 78,
-            "passing": 54,
-            "talent": 71,
-            "defense": 72,
-            "score": 67
-          }
-        },
-        {
-          "id": "los-troncos-fc-6",
-          "dorsalName": "I. Nuevo «Ficus»",
-          "fullName": "Iván Nuevo",
-          "role": "Medio",
-          "image": "los-troncos-fc-i-nuevo-ficus.webp",
-          "stats": {
-            "speed": 70,
-            "physique": 63,
-            "shooting": 80,
-            "passing": 61,
-            "talent": 83,
-            "defense": 73,
-            "score": 72
-          }
-        },
-        {
-          "id": "los-troncos-fc-1",
-          "dorsalName": "M. Arús «Pino»",
-          "fullName": "Marc Arús",
-          "role": "Portero",
-          "image": "los-troncos-fc-m-arus-pino.webp",
-          "stats": {
-            "reflexes": 62,
-            "saves": 70,
-            "kickoff": 60,
-            "stretch": 73,
-            "score": 66
-          }
-        }
-      ],
-      "coach": "Pol Font",
-      "shortName": "TFC",
-      "coachInfo": {
-        "name": "Pol Font",
-        "image": "pol-font.webp"
-      },
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "/presidents/perxitaa.png",
-        "teamId": 0
-      }
-    },
     "rank": 10
   },
   {
-    "wins": 0,
+    "wins": 1,
     "losses": 5,
-    "scoredGoals": 9,
+    "scoredGoals": 14,
     "concededGoals": 16,
     "yellowCards": 5,
     "redCards": 0,
@@ -2200,9 +2200,9 @@
   },
   {
     "wins": 0,
-    "losses": 5,
+    "losses": 2,
     "scoredGoals": 11,
-    "concededGoals": 19,
+    "concededGoals": 24,
     "yellowCards": 3,
     "redCards": 0,
     "team": {
