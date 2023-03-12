@@ -364,34 +364,6 @@
     }
   },
   {
-    "role": "Delantero",
-    "firstName": "Ibai",
-    "lastName": "Gómez",
-    "image": "jijantes-fc-ibai-gomez.webp",
-    "name": "Ibai Gómez",
-    "id": "jijantes-fc-11",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "/teams/logos/jijantes.svg",
-      "imageWhite": "/teams/logos/jijantes-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Víctor",
-    "lastName": "Sánchez",
-    "image": "los-troncos-fc-victor-sanchez.webp",
-    "name": "Víctor Sánchez",
-    "id": "los-troncos-fc-20",
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "/teams/logos/los-troncos.svg",
-      "imageWhite": "/teams/logos/los-troncos-inverse.svg"
-    }
-  },
-  {
     "role": "Medio",
     "firstName": "Javi",
     "lastName": "Márquez",
@@ -445,6 +417,34 @@
       "name": "Aniquiladores FC",
       "image": "/teams/logos/aniquiladores.svg",
       "imageWhite": "/teams/logos/aniquiladores-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Ibai",
+    "lastName": "Gómez",
+    "image": "jijantes-fc-ibai-gomez.webp",
+    "name": "Ibai Gómez",
+    "id": "jijantes-fc-11",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "/teams/logos/jijantes.svg",
+      "imageWhite": "/teams/logos/jijantes-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Víctor",
+    "lastName": "Sánchez",
+    "image": "los-troncos-fc-victor-sanchez.webp",
+    "name": "Víctor Sánchez",
+    "id": "los-troncos-fc-20",
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "/teams/logos/los-troncos.svg",
+      "imageWhite": "/teams/logos/los-troncos-inverse.svg"
     }
   },
   {
