@@ -365,20 +365,6 @@
   },
   {
     "role": "Medio",
-    "firstName": "Rubén",
-    "lastName": "de la Red",
-    "image": "ultimate-mostoles-ruben-de-la-red.webp",
-    "name": "Rubén de la Red",
-    "id": "ultimate-mostoles-8",
-    "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "/teams/logos/ultimate-mostoles.svg",
-      "imageWhite": "/teams/logos/ultimate-mostoles-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
     "firstName": "Enigma",
     "lastName": "Enigma",
     "image": "xbuyer-team-enigma-enigma.webp",
@@ -445,6 +431,20 @@
       "name": "PIO FC",
       "image": "/teams/logos/pio.svg",
       "imageWhite": "/teams/logos/pio-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Rubén",
+    "lastName": "de la Red",
+    "image": "ultimate-mostoles-ruben-de-la-red.webp",
+    "name": "Rubén de la Red",
+    "id": "ultimate-mostoles-8",
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "/teams/logos/ultimate-mostoles.svg",
+      "imageWhite": "/teams/logos/ultimate-mostoles-inverse.svg"
     }
   },
   {
