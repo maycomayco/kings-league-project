@@ -365,20 +365,6 @@
   },
   {
     "role": "Delantero",
-    "firstName": "David",
-    "lastName": "Acedo",
-    "image": "aniquiladores-fc-david-acedo.webp",
-    "name": "David Acedo",
-    "id": "aniquiladores-fc-7",
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "/teams/logos/aniquiladores.svg",
-      "imageWhite": "/teams/logos/aniquiladores-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
     "firstName": "Ibai",
     "lastName": "Gómez",
     "image": "jijantes-fc-ibai-gomez.webp",
@@ -445,6 +431,20 @@
       "name": "XBUYER TEAM",
       "image": "/teams/logos/xbuyer.svg",
       "imageWhite": "/teams/logos/xbuyer-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "David",
+    "lastName": "Acedo",
+    "image": "aniquiladores-fc-david-acedo.webp",
+    "name": "David Acedo",
+    "id": "aniquiladores-fc-7",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "/teams/logos/aniquiladores.svg",
+      "imageWhite": "/teams/logos/aniquiladores-inverse.svg"
     }
   },
   {
