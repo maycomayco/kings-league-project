@@ -379,48 +379,6 @@
   },
   {
     "role": "Medio",
-    "firstName": "Víctor",
-    "lastName": "Sánchez",
-    "image": "los-troncos-fc-victor-sanchez.webp",
-    "name": "Víctor Sánchez",
-    "id": "los-troncos-fc-20",
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "/teams/logos/los-troncos.svg",
-      "imageWhite": "/teams/logos/los-troncos-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Javi",
-    "lastName": "Márquez",
-    "image": "pio-fc-javi-marquez.webp",
-    "name": "Javi Márquez",
-    "id": "pio-fc-5",
-    "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "/teams/logos/pio.svg",
-      "imageWhite": "/teams/logos/pio-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Rubén",
-    "lastName": "de la Red",
-    "image": "ultimate-mostoles-ruben-de-la-red.webp",
-    "name": "Rubén de la Red",
-    "id": "ultimate-mostoles-8",
-    "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "/teams/logos/ultimate-mostoles.svg",
-      "imageWhite": "/teams/logos/ultimate-mostoles-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
     "firstName": "Enigma",
     "lastName": "Enigma",
     "image": "xbuyer-team-enigma-enigma.webp",
@@ -459,6 +417,48 @@
       "name": "Jijantes FC",
       "image": "/teams/logos/jijantes.svg",
       "imageWhite": "/teams/logos/jijantes-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Víctor",
+    "lastName": "Sánchez",
+    "image": "los-troncos-fc-victor-sanchez.webp",
+    "name": "Víctor Sánchez",
+    "id": "los-troncos-fc-20",
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "/teams/logos/los-troncos.svg",
+      "imageWhite": "/teams/logos/los-troncos-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Javi",
+    "lastName": "Márquez",
+    "image": "pio-fc-javi-marquez.webp",
+    "name": "Javi Márquez",
+    "id": "pio-fc-5",
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "/teams/logos/pio.svg",
+      "imageWhite": "/teams/logos/pio-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Rubén",
+    "lastName": "de la Red",
+    "image": "ultimate-mostoles-ruben-de-la-red.webp",
+    "name": "Rubén de la Red",
+    "id": "ultimate-mostoles-8",
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "/teams/logos/ultimate-mostoles.svg",
+      "imageWhite": "/teams/logos/ultimate-mostoles-inverse.svg"
     }
   },
   {
