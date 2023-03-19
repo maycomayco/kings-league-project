@@ -1,6 +1,20 @@
 [
   {
     "role": "Delantero",
+    "firstName": "M.",
+    "lastName": "Del Castillo",
+    "image": "kunisports-m.-del-castillo.webp",
+    "name": "M. Del Castillo",
+    "id": "kunisports-Kunisports_96",
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "/teams/logos/kunisports.svg",
+      "imageWhite": "/teams/logos/kunisports-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
     "firstName": "Fernandão",
     "lastName": "Fernandão",
     "image": "saiyans-fc-fernandao-fernandao.webp",
@@ -71,10 +85,10 @@
   },
   {
     "role": "Medio",
-    "firstName": "Armando",
+    "firstName": "Mandi",
     "lastName": "Sosa",
-    "image": "rayo-barcelona-armando-sosa.webp",
-    "name": "Armando Sosa",
+    "image": "rayo-barcelona-mandi-sosa.webp",
+    "name": "Mandi Sosa",
     "id": "rayo-barcelona-RayoBCN_3",
     "team": {
       "id": "rayo-barcelona",
@@ -365,6 +379,20 @@
   },
   {
     "role": "Medio",
+    "firstName": "Víctor",
+    "lastName": "Sánchez",
+    "image": "los-troncos-fc-victor-sanchez.webp",
+    "name": "Víctor Sánchez",
+    "id": "los-troncos-fc-20",
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "/teams/logos/los-troncos.svg",
+      "imageWhite": "/teams/logos/los-troncos-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
     "firstName": "Javi",
     "lastName": "Márquez",
     "image": "pio-fc-javi-marquez.webp",
@@ -431,20 +459,6 @@
       "name": "Jijantes FC",
       "image": "/teams/logos/jijantes.svg",
       "imageWhite": "/teams/logos/jijantes-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Víctor",
-    "lastName": "Sánchez",
-    "image": "los-troncos-fc-victor-sanchez.webp",
-    "name": "Víctor Sánchez",
-    "id": "los-troncos-fc-20",
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "/teams/logos/los-troncos.svg",
-      "imageWhite": "/teams/logos/los-troncos-inverse.svg"
     }
   },
   {
