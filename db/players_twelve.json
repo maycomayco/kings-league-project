@@ -1,5 +1,19 @@
 [
   {
+    "role": "Medio",
+    "firstName": "Spursito",
+    "lastName": "Spursito",
+    "image": "rayo-barcelona-spursito-spursito.webp",
+    "name": "Spursito Spursito",
+    "id": "rayo-barcelona-RayoBCN_7B",
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "/teams/logos/rayo-barcelona.svg",
+      "imageWhite": "/teams/logos/rayo-barcelona-inverse.svg"
+    }
+  },
+  {
     "role": "Delantero",
     "firstName": "Gerard",
     "lastName": "Tejedor",
@@ -29,24 +43,10 @@
   },
   {
     "role": "Delantero",
-    "firstName": "Mauricio",
-    "lastName": "del Castillo",
-    "image": "kunisports-mauricio-del-castillo.webp",
-    "name": "Mauricio del Castillo",
-    "id": "kunisports-Kunisports_96",
-    "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "/teams/logos/kunisports.svg",
-      "imageWhite": "/teams/logos/kunisports-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "Mauricio",
-    "lastName": "del Castillo",
-    "image": "kunisports-mauricio-del-castillo.webp",
-    "name": "Mauricio del Castillo",
+    "firstName": "M. del Castillo",
+    "lastName": "M. del Castillo",
+    "image": "kunisports-m.-del-castillo-m.-del-castillo.webp",
+    "name": "M. del Castillo M. del Castillo",
     "id": "kunisports-Kunisports_96",
     "team": {
       "id": "kunisports",
@@ -75,7 +75,7 @@
     "lastName": "Calvente",
     "image": "aniquiladores-fc-ezequiel-calvente.webp",
     "name": "Ezequiel Calvente",
-    "id": "aniquiladores-fc-Aniquiladores_28",
+    "id": "aniquiladores-fc-Aniquiladores_28-1",
     "team": {
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
@@ -421,20 +421,6 @@
   },
   {
     "role": "Delantero",
-    "firstName": "David",
-    "lastName": "Acedo",
-    "image": "aniquiladores-fc-david-acedo.webp",
-    "name": "David Acedo",
-    "id": "aniquiladores-fc-7",
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "/teams/logos/aniquiladores.svg",
-      "imageWhite": "/teams/logos/aniquiladores-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
     "firstName": "Ibai",
     "lastName": "Gómez",
     "image": "jijantes-fc-ibai-gomez.webp",
@@ -501,6 +487,20 @@
       "name": "XBUYER TEAM",
       "image": "/teams/logos/xbuyer.svg",
       "imageWhite": "/teams/logos/xbuyer-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "David",
+    "lastName": "Acedo",
+    "image": "aniquiladores-fc-david-acedo.webp",
+    "name": "David Acedo",
+    "id": "aniquiladores-fc-7",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "/teams/logos/aniquiladores.svg",
+      "imageWhite": "/teams/logos/aniquiladores-inverse.svg"
     }
   },
   {
